@@ -17,10 +17,15 @@ import Bookmark from './components/projects/Bookmark';
 import Fylo from './components/projects/Fylo';
 import Insure from './components/projects/Insure';
 
+// Content call
+import Language from './components/LanguageContext'
+
+
 function App() {
   return (
     <div className="App">
 		<BrowserRouter>
+		<Language>
 			<Header/>
 			<ScrollToTop>
 				<Routes>
@@ -34,6 +39,7 @@ function App() {
 				</Routes>
 			</ScrollToTop>
 			<Footer/>
+		</Language>
 		</BrowserRouter>
     </div>
   );

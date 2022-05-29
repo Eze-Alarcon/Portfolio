@@ -1,12 +1,21 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { LangContext } from "./LanguageContext";
 
 const Header = () => {
     const [burgerMenu, setBurgerMenu] = useState("toggle-button")
     const [navbar, setNavbar] = useState("navbar")
     const [openHeader, setOpenHeader] = useState(false)
+    const { data, lang, setLang} = useContext(LangContext)
 
+    const changeLang = () => {
+        if (lang === "en") {
+            setLang(() => "es")
+        } else if (lang === "es") {
+            setLang(() => "en")
+        }
+    }
 
     const openModal = () => {
 
@@ -41,6 +50,7 @@ const Header = () => {
                         <li><Link to="/">HOME</Link></li>
                         <li><Link to="/index">PORTFOLIO</Link></li>
                         <li><Link to="/contact">CONTACT ME</Link></li>
+                        <li><a href=".#" onClick={changeLang}>SPANISH</a></li>
                     </ul>
                 </nav>
             </div>
