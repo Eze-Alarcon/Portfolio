@@ -9,10 +9,10 @@ const Fylo = () => {
 
         <section class="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcset="./images/detail/desktop/image-fylo-hero@2x.jpg"/>
-                <source media="(min-width:730px)" srcset="./images/detail/tablet/image-fylo-hero@2x.jpg"/>
-                <source media="(min-width:500px)" srcset="./images/detail/mobile/image-fylo-hero@2x.jpg"/>
-                <img src="./images/detail/mobile/image-fylo-hero.jpg" alt="Decoration"/>
+                <source media="(min-width:880px)" srcset="/images/detail/desktop/image-fylo-hero@2x.jpg"/>
+                <source media="(min-width:730px)" srcset="/images/detail/tablet/image-fylo-hero@2x.jpg"/>
+                <source media="(min-width:500px)" srcset="/images/detail/mobile/image-fylo-hero@2x.jpg"/>
+                <img src="/images/detail/mobile/image-fylo-hero.jpg" alt="Decoration"/>
             </picture>
         </section>
 
@@ -71,17 +71,17 @@ const Fylo = () => {
                 <div class="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="./images/detail/desktop/image-fylo-preview-1@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="./images/detail/tablet/image-fylo-preview-1@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="./images/detail/mobile/image-fylo-preview-1@2x.jpg"/>
-                        <img src="./images/detail/mobile/image-fylo-preview-1.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-fylo-preview-1@2x.jpg"/>
+                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-fylo-preview-1@2x.jpg"/>
+                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-fylo-preview-1@2x.jpg"/>
+                        <img src="/images/detail/mobile/image-fylo-preview-1.jpg" alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="./images/detail/desktop/image-fylo-preview-2@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="./images/detail/tablet/image-fylo-preview-2@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="./images/detail/mobile/image-fylo-preview-2@2x.jpg"/>
-                        <img src="./images/detail/mobile/image-fylo-preview-2.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-fylo-preview-2@2x.jpg"/>
+                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-fylo-preview-2@2x.jpg"/>
+                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-fylo-preview-2@2x.jpg"/>
+                        <img src="/images/detail/mobile/image-fylo-preview-2.jpg" alt="Decoration"/>
                     </picture>
 
                 </div>

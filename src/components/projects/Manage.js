@@ -1,47 +1,47 @@
-import { Link } from 'react-router-dom';
 import '../../css/details.css'
+import { Link } from 'react-router-dom';
 
 const Manage = () => {
 
     return (
     <main>
 
-        <section class="P-hero">
+        <section className="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcset="./images/detail/desktop/image-manage-hero@2x.jpg"/>
-                <source media="(min-width:730px)" srcset="./images/detail/tablet/image-manage-hero@2x.jpg"/>
-                <source media="(min-width:500px)" srcset="./images/detail/mobile/image-manage-hero@2x.jpg"/>
-                <img src="./images/detail/mobile/image-manage-hero.jpg" alt="Decoration"/>
+                <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-manage-hero@2x.jpg"/>
+                <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-manage-hero@2x.jpg"/>
+                <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-manage-hero@2x.jpg"/>
+                <img src="/images/detail/mobile/image-manage-hero.jpg" alt="Decoration"/>
             </picture>
         </section>
 
-        <section class="P-intro">
+        <section className="P-intro">
 
-            <div class="P-container">
+            <div className="P-container">
 
-                <h1 class="title">
+                <h1 className="title">
                     Manage
                 </h1>
 
-                <p class="text">
+                <p className="text">
                     This project required me to build a fully responsive landing page to the designs 
                     provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
                     required interactivity, such as the testimonial slider.
                 </p>
 
 
-                <div class="tecnologies">
-                    <span class="alternativeText">
+                <div className="tecnologies">
+                    <span className="alternativeText">
                         Interaction Design / Front End Development
                     </span>
         
-                    <span class="alternativeText">
+                    <span className="alternativeText">
                         HTML / CSS / JS
                     </span>
 
                 </div>
 
-                <button type="button" class="secondaryButton">
+                <button type="button" className="secondaryButton">
                     Visit Website
                 </button>
 
@@ -51,13 +51,13 @@ const Manage = () => {
 
 
 
-            <div class="P-description">
+            <div className="P-description">
 
-                <h2 class="subtitle">
+                <h2 className="subtitle">
                     Project Background
                 </h2>
 
-                <p class="text">
+                <p className="text">
                     This project was a front-end  challenge from Frontend Mentor. It&#39s a platform that 
                     enables you to practice building websites to a design and project brief. Each challenge 
                     includes mobile and desktop designs to show how the website should look at different 
@@ -66,24 +66,24 @@ const Manage = () => {
                     me to improve and adapt my style.
                 </p>
 
-                <h2 class="subtitle">
+                <h2 className="subtitle">
                     Static Previews
                 </h2>
 
-                <div class="imageContainer">
+                <div className="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="./images/detail/desktop/image-manage-preview-1@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="./images/detail/tablet/image-manage-preview-1@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="./images/detail/mobile/image-manage-preview-1@2x.jpg"/>
-                        <img src="./images/detail/mobile/image-manage-preview-1.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-manage-preview-1@2x.jpg"/>
+                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-manage-preview-1@2x.jpg"/>
+                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-manage-preview-1@2x.jpg"/>
+                        <img src="/images/detail/mobile/image-manage-preview-1.jpg" alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="./images/detail/desktop/image-manage-preview-2@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="./images/detail/tablet/image-manage-preview-2@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="./images/detail/mobile/image-manage-preview-2@2x.jpg"/>
-                        <img src="./images/detail/mobile/image-manage-preview-2.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-manage-preview-2@2x.jpg"/>
+                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-manage-preview-2@2x.jpg"/>
+                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-manage-preview-2@2x.jpg"/>
+                        <img src="/images/detail/mobile/image-manage-preview-2.jpg" alt="Decoration"/>
                     </picture>
 
                 </div>
@@ -92,39 +92,39 @@ const Manage = () => {
 
         </section>
 
-        <section class="P-more">
+        <section className="P-more">
 
-            <a href=".#" class="previous">
+            <a href=".#" className="previous">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8"/></svg>
 
-                <h3 class="subtitle">Fylo</h3>
+                <h3 className="subtitle">Fylo</h3>
 
                 <span>Previous Project</span>
             </a>
 
-            <div class="middleLine"></div>
+            <div className="middleLine"></div>
 
-            <a href=".#" class="next">
+            <a href=".#" className="next">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8"/></svg>
 
-                <h3 class="subtitle">Bookmark</h3>
+                <h3 className="subtitle">Bookmark</h3>
 
                 <span>Next Project</span>
             </a>
         </section>
 
 
-        <section class="RS-contact">
-            <h2 class="title">
+        <section className="RS-contact">
+            <h2 className="title">
                 Interested in doing a project together?
             </h2>
 
-            <span class="line"></span>
+            <span className="line"></span>
 
 
             <Link to="./contact">
-                <button type="button" class="secondaryButton">
+                <button type="button" className="secondaryButton">
                     CONTACT ME
                 </button>
             </Link>

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [burgerMenu, setBurgerMenu] = useState("toggle-button")
@@ -37,9 +38,9 @@ const Header = () => {
                 </div>
                 <nav className={navbar}>
                     <ul role="list">
-                        <li><a href=".#">HOME</a></li>
-                        <li><a href=".#">PORTFOLIO</a></li>
-                        <li><a href=".#">CONTACT ME</a></li>
+                        <li><Link to="/">HOME</Link></li>
+                        <li><Link to="/index">PORTFOLIO</Link></li>
+                        <li><Link to="/contact">CONTACT ME</Link></li>
                     </ul>
                 </nav>
             </div>
