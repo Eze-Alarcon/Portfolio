@@ -1,0 +1,131 @@
+main {
+    margin: 4rem 0;
+    padding: 0 3.2rem;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 730px) {
+    section {
+        max-width: 55rem;
+    }
+}
+
+
+@media (min-width: 730px) {
+    section {
+        max-width: 80rem;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    section {
+        max-width: 111rem;
+        margin-bottom: 15rem;
+    }
+}
+
+
+/* 
+    ====================
+
+    ----- Sections -----
+
+    ====================
+*/
+
+
+.projects {
+    min-width: auto;
+    min-height: 69rem;
+    margin-bottom: 7.8rem;
+}
+
+
+.projects picture img {
+    width: 100%;
+}
+
+.projects .container {
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3.2rem;
+    width: 100%;
+    min-height: 37rem;
+    height: auto;
+    padding: 2.5rem 0 3rem;
+}
+
+
+.projects .secondaryButton {
+    max-width: 20rem;
+}
+
+
+@media (min-width: 730px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        min-height: 42rem;
+        margin-bottom: 8rem;
+    }
+
+    .projects .container {
+        gap: 3.2rem;
+        align-self: center;
+    }
+
+    .projects:nth-child(odd) picture {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center;
+    }
+
+    .projects:nth-child(odd) .container {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    } 
+
+
+    .projects:nth-child(even) picture {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        align-self: center;
+    }
+
+    .projects:nth-child(even) .container {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    } 
+}
+
+
+@media (min-width: 1280px) {
+    .projects {
+        min-height: 50rem;
+    }
+
+    .projects picture {
+        min-height: 50rem;
+    }
+
+    .projects .container {
+        min-height: 50rem;
+    }
+}
+
+
