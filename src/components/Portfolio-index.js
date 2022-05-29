@@ -1,8 +1,15 @@
 import '../css/portfolio.css'
 import { Link } from 'react-router-dom';
+import PortfolioItem from './PortolioItem';
+import { useContext } from 'react';
+import { LangContext } from "./LanguageContext";
 
 const PortfolioIndex = () => {
+	const { data } = useContext(LangContext)
 
+	const portfolioData = data.portolio 
+
+	console.log(portfolioData)
 
     return (
         <main>
@@ -10,10 +17,10 @@ const PortfolioIndex = () => {
 		<section className="projects">
 
 			<picture>
-				<source media="(min-width:880px)" srcSet="./images/portfolio/desktop/image-portfolio-manage@2x.jpg"/>
-				<source media="(min-width:730px)" srcSet="./images/portfolio/tablet/image-portfolio-manage@2x.jpg"/>
-				<source media="(min-width:500px)" srcSet="./images/portfolio/mobile/image-portfolio-manage@2x.jpg"/>
-				<img src="./images/portfolio/mobile/image-portfolio-manage.jpg" alt="Project fotos"/>
+				<source media="(min-width:880px)" srcSet="/images/portfolio/desktop/image-portfolio-manage@2x.jpg"/>
+				<source media="(min-width:730px)" srcSet="/images/portfolio/tablet/image-portfolio-manage@2x.jpg"/>
+				<source media="(min-width:500px)" srcSet="/images/portfolio/mobile/image-portfolio-manage@2x.jpg"/>
+				<img src="/images/portfolio/mobile/image-portfolio-manage.jpg" alt="Project fotos"/>
 			</picture>
 
 			<div className="container">
@@ -44,10 +51,10 @@ const PortfolioIndex = () => {
 		<section className="projects">
 
 			<picture>
-				<source media="(min-width:880px)" srcSet="./images/portfolio/desktop/image-portfolio-bookmark@2x.jpg"/>
-				<source media="(min-width:730px)" srcSet="./images/portfolio/tablet/image-portfolio-bookmark@2x.jpg"/>
-				<source media="(min-width:500px)" srcSet="./images/portfolio/mobile/image-portfolio-bookmark@2x.jpg"/>
-				<img src="./images/portfolio/mobile/image-portfolio-bookmark.jpg" alt="Project fotos"/>
+				<source media="(min-width:880px)" srcSet="/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg"/>
+				<source media="(min-width:730px)" srcSet="/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg"/>
+				<source media="(min-width:500px)" srcSet="/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg"/>
+				<img src="/images/portfolio/mobile/image-portfolio-bookmark.jpg" alt="Project fotos"/>
 			</picture>
 
 			<div className="container">
@@ -78,10 +85,10 @@ const PortfolioIndex = () => {
 		<section className="projects">
 
 			<picture>
-				<source media="(min-width:880px)" srcSet="./images/portfolio/desktop/image-portfolio-insure@2x.jpg"/>
-				<source media="(min-width:730px)" srcSet="./images/portfolio/tablet/image-portfolio-insure@2x.jpg"/>
-				<source media="(min-width:500px)" srcSet="./images/portfolio/mobile/image-portfolio-insure@2x.jpg"/>
-				<img src="./images/portfolio/mobile/image-portfolio-insure.jpg" alt="Project fotos"/>
+				<source media="(min-width:880px)" srcSet="/images/portfolio/desktop/image-portfolio-insure@2x.jpg"/>
+				<source media="(min-width:730px)" srcSet="/images/portfolio/tablet/image-portfolio-insure@2x.jpg"/>
+				<source media="(min-width:500px)" srcSet="/images/portfolio/mobile/image-portfolio-insure@2x.jpg"/>
+				<img src="/images/portfolio/mobile/image-portfolio-insure.jpg" alt="Project fotos"/>
 			</picture>
 
 			<div className="container">
@@ -112,10 +119,10 @@ const PortfolioIndex = () => {
   		<section className="projects">
 
 			<picture>
-				<source media="(min-width:880px)" srcSet="./images/portfolio/desktop/image-portfolio-fylo@2x.jpg"/>
-				<source media="(min-width:730px)" srcSet="./images/portfolio/tablet/image-portfolio-fylo@2x.jpg"/>
-				<source media="(min-width:500px)" srcSet="./images/portfolio/mobile/image-portfolio-fylo@2x.jpg"/>
-				<img src="./images/portfolio/mobile/image-portfolio-fylo.jpg" alt="Project fotos"/>
+				<source media="(min-width:880px)" srcSet="/images/portfolio/desktop/image-portfolio-fylo@2x.jpg"/>
+				<source media="(min-width:730px)" srcSet="/images/portfolio/tablet/image-portfolio-fylo@2x.jpg"/>
+				<source media="(min-width:500px)" srcSet="/images/portfolio/mobile/image-portfolio-fylo@2x.jpg"/>
+				<img src="/images/portfolio/mobile/image-portfolio-fylo.jpg" alt="Project fotos"/>
 			</picture>
 
 			<div className="container">
