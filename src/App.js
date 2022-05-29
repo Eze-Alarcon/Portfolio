@@ -1,18 +1,21 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop';
 
+// Basic components
+import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header'
+import Footer from './components/Footer'
+
+// Pages
 import Home from './components/Home';
 import PortfolioIndex from './components/Portfolio-index';
 import Contact from './components/Contact'
+
+// Projects
 import Manage from './components/projects/Manage';
 import Bookmark from './components/projects/Bookmark';
 import Fylo from './components/projects/Fylo';
 import Insure from './components/projects/Insure';
-
-
-import Footer from './components/Footer'
 
 function App() {
   return (
