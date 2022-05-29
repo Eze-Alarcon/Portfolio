@@ -1,38 +1,790 @@
-.App {
-  text-align: center;
+/* 
+    ===========================
+
+    ----- Design System -----
+
+    ===========================
+*/ 
+
+:root {
+    --PC-cyan: #5FB4A2;
+    --PC-blue: #203A4C;
+    --PC-black: #33323D;
+
+    --SC-bg: #FAFAFA;
+    --SC-inputs: #EAEAEB;
+    --SC-error: #F43030;
+
+    --PF-ibarra: 'Ibarra Real Nova', serif;
+    --SF-public: 'Public Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 
+    ===========================
+
+    ----- Utility Classes -----
+
+    ===========================
+*/ 
+
+
+
+/* 
+    ----- Texts and titles -----
+*/
+
+
+
+.title {
+    font-family: var(--PF-ibarra);
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4.2rem;
+    color: var(--PC-black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.subtitle {
+    font-family: var(--PF-ibarra);
+    color: var(--PC-black);
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.29px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.text {
+    font-family: var(--SF-public);
+    color: var(--PC-black);
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.alternativeText {
+    display: block;
+    font-family: var(--SF-public);
+    color: var(--PC-cyan);
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* 
+    ----- Buttons ----- 
+*/
+
+
+
+.primaryButton {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--PC-blue);
+    width: 20rem;
+    min-height: 4.8rem;
+    border: none;
+    font-family: var(--SF-public);
+    color: #FFFFFF;
+    letter-spacing: .2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+    .primaryButton .PB-iconContainer {
+        background-color: rgba(0, 0, 0, .1);
+        height: 4.8rem;
+        width: 4.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primaryButton .PB-textContainer {
+        width: 100%;
+    }
+
+
+.secondaryButton {
+    padding: 0;
+    border: 1px solid var(--PC-black);
+    border-bottom: 2px solid var(--PC-black);;
+    background-color: inherit;
+    min-width: 50%;
+    min-height: 4.8rem;
+    font-family: var(--SF-public);
+    color: var(--PC-black);
+    letter-spacing: .2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+
+
+/* 
+    ----- Hover -----
+*/
+
+
+
+.primaryButton:hover {
+    background-color: var(--PC-cyan);
+}
+
+    .primaryButton:hover .PB-iconContainer svg path {
+        stroke: #FAFAFA;
+    }
+
+    
+.secondaryButton:hover {
+    background-color: var(--PC-black);
+    color: #FAFAFA;
+}
+
+
+
+/* 
+    ----- Labels ----- 
+*/
+
+
+
+.formLabel {
+    font-family: var(--SF-public);
+    color: var(--PC-black);
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 3rem
+}
+
+
+
+/* 
+    ----- Inputs ----- 
+*/
+
+
+
+.textField {
+    background-color: var(--SC-inputs);
+    border: none;
+    min-width: 24rem;
+    min-height: 4.8rem;
+    color: var(--PC-black);
+    padding: .9rem 0 0 1.6rem;
+    font-family: var(--SF-public);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.textField:focus-visible,
+.textArea:focus-visible {
+    outline: 2px solid var(--PC-cyan);
+}
+
+.textFieldError,
+.textAreaError {
+    outline: 2px solid var(--SC-error);
+}
+
+
+/* 
+    ----- Textarea ----- 
+*/
+
+.textArea {
+    background-color: var(--SC-inputs);
+    border: none;
+    min-width: 23rem;
+    height: 7.2rem;
+    color: var(--PC-black);
+    padding: .9rem 0 0 1.6rem;
+    font-family: var(--SF-public);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+
+
+/* 
+    ================== 
+
+    ----- Body -----
+
+    ==================  
+*/ 
+
+
+
+body {
+    background-color: var(--SC-bg);
+}
+
+
+
+/* 
+    ================== 
+
+    ----- Header -----
+
+    ==================  
+*/ 
+
+
+
+header {
+    min-width: 100%;
+    color: var(--PC-black);
+}
+
+
+.header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .header-logo {
+    margin:  0;
+}
+
+
+.navbar {
+    margin: 1.5rem 3.2rem 0 0;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+
+.navbar li a {
+    padding: 1rem;
+    display: block;
+    color: var(--PC-black);
+    text-decoration: none;
+    font-family: var(--SF-public);
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+
+
+.navbar li a:hover {
+    color: var(--PC-cyan);
+} 
+
+
+
+/* 
+    ----- Burger Menu Bars -----
+*/
+
+
+
+.H-burgerContainer {
+    position: absolute;
+    top: 4.2rem;
+    right: 3.2rem;
+}
+
+
+.toggle-button {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+
+.toggle-button .bar {
+    height: 1px;
+    width: 100%;
+    background-color: var(--PC-black);
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+
+.toggle-button .bar::before,
+.toggle-button .bar::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: var(--PC-black);
+    transition: inherit;
+}
+
+    .toggle-button .bar::before {
+        transform: translateY(8px)
+    }
+
+    .toggle-button .bar::after {
+        transform: translateY(-8px)
+    }
+
+
+
+/* 
+   ----- Animations -----
+*/
+
+
+
+/* 
+    Burger Menu Animation
+*/
+
+
+
+.toggle-button.open .bar {
+    background: transparent;
+    transform: translateX(-50px);
+}
+
+    .toggle-button.open .bar::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+
+    .toggle-button.open .bar::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+
+
+
+/* 
+    ----- Navbar Animation -----
+*/
+
+
+
+@keyframes up {
+    0% {
+        height: 100%;
+        max-height: 100vh;
+        visibility: visible;
+    }
+
+    100% {
+        height: 0;
+        max-height: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes down {
+    0% {
+        height: 0;
+        max-height: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        height: 100%;
+        max-height: 100vh;
+        visibility: visible;
+    }
+}
+
+
+
+/* 
+    ----- Header Media Queries -----
+*/
+
+
+
+@media (max-width: 500px) {
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .header .header-logo {
+        margin: 1.5rem 0 0 3.2rem;
+    }
+
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar {
+        margin-top: 1.5rem;
+        width: 100%;
+        display: block;
+        visibility: hidden;
+        height: 0px;
+        background-color: var(--PC-black);
+    }
+
+        .navbar.close {
+            overflow: hidden;
+            animation: up 1s;
+        }
+
+        .navbar.active {
+            display: block;
+            visibility: visible;
+            height: 100%;
+            overflow: hidden;
+            animation: down 3s;
+        }
+
+    .navbar ul {
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .navbar ul li a {
+        color: #FAFAFA;
+        padding: 1rem 1rem;
+    }
+}
+
+
+
+@media (min-width: 500px) {
+    .header {
+        min-height: 8rem;
+        width: 100%;
+        max-width: calc(55rem + 3.2rem + 4rem);
+        padding: 0 3.2rem;
+        margin: 0 auto;
+    }
+
+    .header .navbar {
+        justify-content: flex-end;
+        margin: 0;
+    }
+    
+}
+
+
+
+@media (min-width: 730px) {
+    .header {
+        max-width: calc(80rem + 3.2rem + 4rem);
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        max-width: calc(111rem + 3.2rem + 4rem);;
+    }
+}
+
+
+
+/* 
+    ==============================
+
+    ----- Repetitive Section -----
+
+    ==============================
+*/ 
+
+
+
+
+.RS-contact {
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.RS-contact .line {
+    display: none;
+}
+
+.RS-contact button {
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media (min-width: 730px) {
+    .RS-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .RS-contact .title {
+        width: 35rem;
+    }
+    
+    .RS-contact .line {
+        background-color: #33323D;
+        display: block;
+        height: 1px;
+        width: 15%;
+    }
+
+    .RS-contact .secondaryButton {
+        max-height: 4.6rem;
+        min-width: 16rem;
+        max-width: 17rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .RS-contact {
+        margin: 15rem auto;
+    }
+
+
+    .RS-contact .line {
+        width: 40%;
+    }
+}
+
+
+
+/* 
+    ==============================
+
+    ----- More Projects Section -----
+
+    ==============================
+*/ 
+
+
+
+.P-more {
+    min-height: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    grid-template-rows: 1fr;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+
+.P-more span {
+    font-size: var(--SF-public);
+    color: var(--PC-black);
+    opacity: .5;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+.P-more a {
+    text-decoration: none;
+    color: var(--PC-black)
+}
+
+
+.P-more .previous {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.P-more .middleLine {
+    background-color: #979797;
+    min-height: 15rem;
+    grid-column: 2 / 3;
+}
+
+
+.P-more .next {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    align-self: center;
+    text-align: right;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+
+
+@media (min-width: 730px) {
+    .P-more .previous {
+        display: grid;
+        grid-template-columns: 3.2rem auto;
+        grid-template-rows: 1fr 1fr;
+        justify-content: start;
+    }
+
+    .P-more .next {
+        display: grid;
+        grid-template-columns: auto 3.2rem;
+        grid-template-rows: 1fr 1fr;
+        justify-content: end;
+    }
+
+    .P-more .previous .subtitle {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        align-self: end;
+    }
+
+    .P-more .previous span {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        align-self: space-between;
+    }
+
+
+    .P-more .previous svg {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        align-self: center;
+    }
+
+
+    .P-more .next .subtitle {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: end;
+    }
+
+    .P-more .next span {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        align-self: start;
+    }
+
+
+    .P-more .next svg {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        align-self: center;
+        justify-self: end;
+    }
+}
+
+
+
+/* 
+    ================== 
+
+    ----- Footer -----
+
+    ==================  
+*/ 
+
+
+
+footer {
+    background-color: var(--PC-black);
+    width: 100%;
+    min-height: 8rem;
+    padding: 2.4rem 4rem;
+}
+
+
+footer .footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+footer .footer-container a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: var(--SF-public);
+    font-family: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: .3rem;
+}
+
+
+footer a:hover {
+    color: var(--PC-cyan);
+}
+
+
+footer .F-socialIcons {
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer .F-socialIcons a svg:hover path {
+    fill: var(--PC-cyan);
+}
+
+
+
+/* 
+    ----- Footer Media Queries -----
+*/
+
+
+
+@media (max-width: 729px) {
+    footer .footer-container {
+        padding: 5.5rem 0 0 0;
+        min-height: 37rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+}
+
+
+@media (min-width: 730px) {
+
+    footer .footer-container {
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+
+    footer .F-socialIcons {
+        margin-left: auto;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    footer .footer-container {
+        max-width: 111rem;
+    }
 }
