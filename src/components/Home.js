@@ -78,7 +78,7 @@ const Home = () => {
 
 			<span className="line"></span>
 
-				<Link to="./contact">
+				<Link to="/contact">
 					<button type="button" className="secondaryButton">
 						CONTACT ME
 					</button>

@@ -94,24 +94,24 @@ const Manage = () => {
 
         <section className="P-more">
 
-            <a href=".#" className="previous">
+            <Link to="/project/fylo" className="previous">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8"/></svg>
 
                 <h3 className="subtitle">Fylo</h3>
 
                 <span>Previous Project</span>
-            </a>
+            </Link>
 
             <div className="middleLine"></div>
 
-            <a href=".#" className="next">
+            <Link to="/project/bookmark" className="next">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8"/></svg>
 
                 <h3 className="subtitle">Bookmark</h3>
 
                 <span>Next Project</span>
-            </a>
+            </Link>
         </section>
 
 
@@ -123,7 +123,7 @@ const Manage = () => {
             <span className="line"></span>
 
 
-            <Link to="./contact">
+            <Link to="/contact">
                 <button type="button" className="secondaryButton">
                     CONTACT ME
                 </button>

@@ -1,5 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+
 import Header from './components/Header'
 import Home from './components/Home';
 import PortfolioIndex from './components/Portfolio-index';
@@ -17,6 +19,7 @@ function App() {
     <div className="App">
 		<BrowserRouter>
 			<Header/>
+			<ScrollToTop>
 				<Routes>
 					<Route path="/" element={<Home/>} />
 					<Route path="/index" element={<PortfolioIndex/>} />
@@ -26,6 +29,7 @@ function App() {
 						<Route path="/project/fylo" element={<Fylo/>} />
 						<Route path="/project/insure" element={<Insure/>} />
 				</Routes>
+			</ScrollToTop>
 			<Footer/>
 		</BrowserRouter>
     </div>
