@@ -1,3 +1,6 @@
+import '../../css/details.css'
+import { Link } from 'react-router-dom';
+
 const Bookmark = () => {
 
 
@@ -102,9 +105,11 @@ const Bookmark = () => {
 
             <span class="line"></span>
 
-            <button type="button" class="secondaryButton">
-                CONTACT ME
-            </button>
+            <Link to="./contact">
+                <button type="button" class="secondaryButton">
+                    CONTACT ME
+                </button>
+            </Link>
         </section>
 
 

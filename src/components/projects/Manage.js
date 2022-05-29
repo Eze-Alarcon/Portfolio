@@ -1,5 +1,7 @@
-const Manage = () => {
+import { Link } from 'react-router-dom';
+import '../../css/details.css'
 
+const Manage = () => {
 
     return (
     <main>
@@ -120,9 +122,12 @@ const Manage = () => {
 
             <span class="line"></span>
 
-            <button type="button" class="secondaryButton">
-                CONTACT ME
-            </button>
+
+            <Link to="./contact">
+                <button type="button" class="secondaryButton">
+                    CONTACT ME
+                </button>
+            </Link>
         </section>
 
 

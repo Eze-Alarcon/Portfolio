@@ -1,3 +1,6 @@
+import '../../css/details.css'
+import { Link } from 'react-router-dom';
+
 const Insure = () => {
 
 
@@ -119,9 +122,11 @@ const Insure = () => {
 
             <span class="line"></span>
 
-            <button type="button" class="secondaryButton">
-                CONTACT ME
-            </button>
+            <Link to="./contact">
+                <button type="button" class="secondaryButton">
+                    CONTACT ME
+                </button>
+            </Link>
         </section>
 
 

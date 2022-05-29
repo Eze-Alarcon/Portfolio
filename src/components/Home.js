@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
 
 
@@ -54,9 +56,12 @@ const Home = () => {
 					you to check out my work.
 				</p>
 	
-				<button type="button" class="secondaryButton">
-					GO TO PORTFOLIO
-				</button>
+				<Link to="./index">
+					<button type="button" class="secondaryButton">
+						GO TO PORTFOLIO
+					</button>
+				</Link>
+
 			</div>
 
 
@@ -72,9 +77,11 @@ const Home = () => {
 
 			<span class="line"></span>
 
-			<button type="button" class="secondaryButton">
-				CONTACT ME
-			</button>
+				<Link to="./contact">
+					<button type="button" class="secondaryButton">
+						CONTACT ME
+					</button>
+				</Link>
 		</section>
 
 	</main>
