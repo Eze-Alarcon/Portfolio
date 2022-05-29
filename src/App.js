@@ -9,11 +9,6 @@ import Bookmark from './components/projects/Bookmark';
 import Fylo from './components/projects/Fylo';
 import Insure from './components/projects/Insure';
 
-import './css/contact.css'
-import './css/details.css'
-import './css/index.css'
-import './css/portfolio.css'
-
 
 import Footer from './components/Footer'
 

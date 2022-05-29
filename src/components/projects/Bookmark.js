@@ -7,64 +7,83 @@ const Bookmark = () => {
     return (
     <main>
 
-        <section className="imageContainer">
+        <section className="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcset="/images/detail/desktop/image-manage-hero@2x.jpg"/>
-                <source media="(min-width:730px)" srcset="/images/detail/tablet/image-manage-hero@2x.jpg"/>
-                <source media="(min-width:500px)" srcset="/images/detail/mobile/image-manage-hero@2x.jpg"/>
-                <img src="/images/detail/mobile/image-manage-hero.jpg" alt="Decoration"/>
+                <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-hero@2x.jpg"/>
+                <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-hero@2x.jpg"/>
+                <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-hero@2x.jpg"/>
+                <img src="/images/detail/mobile/image-bookmark-hero.jpg" alt="Decoration"/>
             </picture>
         </section>
 
-        <section className="project">
+        <section className="P-intro">
 
-            <div className="P-intro">
+            <div className="P-container">
 
-                <h1 className="title">Bookmark</h1>
+                <h1 className="title">
+                    Bookmark
+                </h1>
 
                 <p className="text">
                     This project required me to build a fully responsive landing page to the designs 
-                    provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
-                    required interactivity, such as the features section.
+				provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
+				required interactivity, such as the features section.
                 </p>
 
-                <p className="alternativeText">Interaction Design / Front End Development</p>
 
-                <p className="alternativeText">HTML / CSS / JS</p>
+                <div className="tecnologies">
+                    <span className="alternativeText">
+                        Interaction Design / Front End Development
+                    </span>
+        
+                    <span className="alternativeText">
+                        HTML / CSS / JS
+                    </span>
 
-                <button type="button" className="secondaryButton">Visit Website</button>
+                </div>
+
+                <button type="button" className="secondaryButton">
+                    Visit Website
+                </button>
 
             </div>
 
 
+
+
+
             <div className="P-description">
 
-                <h2 className="subtitle">Project Background</h2>
+                <h2 className="subtitle">
+                    Project Background
+                </h2>
 
                 <p className="text">
-                    This project was a front-end  challenge from Frontend Mentor. It&#39s a platform that 
+                    This project was a front-end  challenge from Frontend Mentor. It's a platform that 
                     enables you to practice building websites to a design and project brief. Each challenge 
                     includes mobile and desktop designs to show how the website should look at different 
                     screen sizes. Creating these projects has helped me refine my workflow and solve 
-                    real-world coding problems. I&#39ve learned something new with each project, helping 
+                    real-world coding problems. I've learned something new with each project, helping 
                     me to improve and adapt my style.
                 </p>
 
-                <h2 className="subtitle">Static Previews</h2>
+                <h2 className="subtitle">
+                    Static Previews
+                </h2>
 
-                <div className="container">
+                <div className="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-bookmark-preview-1@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-bookmark-preview-1@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-bookmark-preview-1@2x.jpg"/>
+                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-preview-1@2x.jpg"/>
+                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-preview-1@2x.jpg"/>
+                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-preview-1@2x.jpg"/>
                         <img src="/images/detail/mobile/image-bookmark-preview-1.jpg" alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-bookmark-preview-2@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-bookmark-preview-2@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-bookmark-preview-2@2x.jpg"/>
+                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-preview-2@2x.jpg"/>
+                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-preview-2@2x.jpg"/>
+                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-preview-2@2x.jpg"/>
                         <img src="/images/detail/mobile/image-bookmark-preview-2.jpg" alt="Decoration"/>
                     </picture>
 
@@ -73,7 +92,6 @@ const Bookmark = () => {
             </div>
 
         </section>
-
 
         <section className="P-more">
 
@@ -105,7 +123,8 @@ const Bookmark = () => {
 
             <span className="line"></span>
 
-            <Link to="./contact">
+
+            <Link to="/contact">
                 <button type="button" className="secondaryButton">
                     CONTACT ME
                 </button>
