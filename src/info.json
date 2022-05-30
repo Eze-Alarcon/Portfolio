@@ -255,107 +255,230 @@
             "link3": "CONTACTAME"
         },
         "genericEnd": {
-            "title": "Interesado en hacer projectos juntos?",
-            "button": "CONTACTAME"
+            "title": "¿Interesado en hacer proyectos juntos?",
+            "button": "Contactame"
         },
         "home": {
-            "title": "Hola, soy Ezequie Alarcon y me encanta crear paginas web",
-            "button1": "SOBRE MI",
-            "subtitle1": "Sobre Mi",
+            "title": "Hey, I'm Alex Spencer and I love building beautiful websites",
+            "button1": "ABOUT ME",
+            "subtitle1": "About Me",
             "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
-            "button2": "IR AL PORTFOLIO"
+            "button2": "GO TO PORTFOLIO"
         },
-        "portolio": {
-            "projects": {
-                "project1": {
+        "portolio": [
+                {
                     "name": "Manage",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider."
+                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-manage@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-manage.jpg"
+                    }
                 },
-                "project2": {
+                {
                     "name": "Bookmark",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section."
+                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-bookmark.jpg"
+                    }
                 },
-                "project3": {
+                {
                     "name": "Insure",
-                    "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation."
+                    "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-insure@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-insure@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-insure@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-insure.jpg"
+                    }
                 },
-                "project4": {
+                {
                     "name": "Fylo",
-                    "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes."
-                },
-                "button": "VER PROYECTO"
-            }
-        },
+                    "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-fylo@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-fylo@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-fylo@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-fylo.jpg"
+                    }
+                }
+            ],
         "contact": {
-            "title1": "Ponerte En Conctacto",
+            "title1": "Get in Touch",
             "description": "I'd love to hear about what you're working on and how I could help. I'm currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I'm also happy to hear about opportunites that don't fit that description. I'm a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.",
             "title2": "Contact Me",
             "form": {
-                "label1": "Nombre",
-                "label2": "Correo Electronico",
-                "label3": "Mensaje",
-                "button": "ENVIAR MENSAJE"
+                "label1": "Name",
+                "label2": "Email Address",
+                "label3": "Message",
+                "button": "SEND MESSAGE"
             }
         },
-        "projectDetails": {
-            "project1": {
-                "intro": {
-                    "name": "Bookmark",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
-                    "implementations": "Interaction Design / Front End Development",
-                    "tecnologies": "HTML / CSS / JS",
-                    "button": "VISITAR LA PAGINA"
-                },
-                "projectDescription": {
-                    "title": "Background del proyecto",
-                    "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-                    "subtitle": "Static Previews"
-                }
+        "projects": {
+            "footer": 
+            {
+                "previous": "Proyecto Anterior",
+                "next": "Siguiente Proyecto"
             },
-            "project2": {
-                "intro": {
-                    "name": "Fylo",
-                    "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-                    "implementations": "Interaction Design / Front End Development",
-                    "tecnologies": "HTML / CSS",
-                    "button": "VISITAR LA PAGINA"
+            "details": 
+            {
+                "bookmark": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-bookmark-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-bookmark-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-bookmark-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-bookmark-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-bookmark-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-bookmark-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-bookmark-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-bookmark-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-bookmark-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-bookmark-preview-2.jpg"
+                            }
+                        ]
+                    },
+                    "intro": {
+                        "name": "Bookmark",
+                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS / JS",
+                        "button": "VISIT WEBSITE"
+                    },
+                    "projectDescription": {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    }
                 },
-                "projectDescription": {
-                    "title": "Background del proyecto",
-                    "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-                    "subtitle": "Static Previews"
-                }
-            },
-            "project3": {
-                "intro": {
-                    "name": "Insure",
-                    "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
-                    "implementations": "Interaction Design / Front End Development",
-                    "tecnologies": "HTML / CSS / JS",
-                    "button": "VISITAR LA PAGINA"
+                "fylo": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-fylo-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-fylo-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-fylo-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-fylo-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-fylo-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-fylo-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-fylo-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-fylo-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-fylo-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-fylo-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-fylo-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-fylo-preview-2.jpg"
+                            }
+                        ]
+                    },
+                    "intro": {
+                        "name": "Fylo",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS",
+                        "button": "VISIT WEBSITE"
+                    },
+                    "projectDescription": {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    }
                 },
-                "projectDescription": {
-                    "title": "Background del proyecto",
-                    "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-                    "subtitle": "Static Previews"
-                }
-            },
-            "project4": {
-                "intro": {
-                    "name": "Manage",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-                    "implementations": "Interaction Design / Front End Development",
-                    "tecnologies": "HTML / CSS / JS",
-                    "button": "VISITAR LA PAGINA"
+                "insure": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-insure-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-insure-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-insure-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-insure-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-insure-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-insure-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-insure-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-insure-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-insure-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-insure-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-insure-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-insure-preview-2.jpg"
+                            }
+                        ]
+                    },
+                    "intro": {
+                        "name": "Insure",
+                        "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS / JS",
+                        "button": "VISIT WEBSITE"
+                    },
+                    "projectDescription": {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    }
                 },
-                "projectDescription": {
-                    "title": "Background del proyecto",
-                    "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-                    "subtitle": "Static Previews"
+                "manage": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-manage-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-manage-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-manage-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-manage-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-manage-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-manage-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-manage-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-manage-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-manage-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-manage-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-manage-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-manage-preview-2.jpg"
+                            }
+                        ]
+                    },
+                    "intro": {
+                        "name": "Manage",
+                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS / JS",
+                        "button": "VISIT WEBSITE"
+                    },
+                    "projectDescription": {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    }
                 }
-            },
-            "previous": "Proyecto Anterior",
-            "next": "Siguiente Proyecto"
+            }
         }
     }
 }
