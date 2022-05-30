@@ -125,6 +125,29 @@
                     }
                 },
                 "fylo": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-fylo-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-fylo-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-fylo-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-fylo-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-fylo-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-fylo-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-fylo-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-fylo-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-fylo-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-fylo-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-fylo-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-fylo-preview-2.jpg"
+                            }
+                        ]
+                    },
                     "intro": {
                         "name": "Fylo",
                         "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
@@ -139,6 +162,29 @@
                     }
                 },
                 "insure": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-insure-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-insure-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-insure-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-insure-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-insure-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-insure-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-insure-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-insure-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-insure-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-insure-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-insure-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-insure-preview-2.jpg"
+                            }
+                        ]
+                    },
                     "intro": {
                         "name": "Insure",
                         "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
@@ -153,6 +199,29 @@
                     }
                 },
                 "manage": {
+                    "images": {
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-manage-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-manage-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-manage-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-manage-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-manage-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-manage-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-manage-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-manage-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-manage-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-manage-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-manage-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-manage-preview-2.jpg"
+                            }
+                        ]
+                    },
                     "intro": {
                         "name": "Manage",
                         "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",

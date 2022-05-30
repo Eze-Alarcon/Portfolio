@@ -46,7 +46,7 @@ const Bookmark = () => {
                     </span>
         
                     <span className="alternativeText">
-                        {projectIntro.description}
+                        {projectIntro.tecnologies}
                     </span>
 
                 </div>
