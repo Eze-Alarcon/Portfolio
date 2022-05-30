@@ -1,7 +1,18 @@
 import '../../css/details.css'
 import { Link } from 'react-router-dom';
+import ProjectFooter from './ProjectFooter';
+import { useContext } from 'react';
+import { LangContext } from "../LanguageContext"
+
 
 const Bookmark = () => {
+    const { data } = useContext(LangContext)
+
+    const projectImages = data.projects.details.bookmark.images 
+    const projectIntro = data.projects.details.bookmark.intro
+    const projectData = data.projects.details.bookmark.projectDescription
+    const projectFooter = data.projects.footer
+
 
 
     return (
@@ -9,10 +20,10 @@ const Bookmark = () => {
 
         <section className="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-hero@2x.jpg"/>
-                <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-hero@2x.jpg"/>
-                <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-hero@2x.jpg"/>
-                <img src="/images/detail/mobile/image-bookmark-hero.jpg" alt="Decoration"/>
+                <source media="(min-width:880px)" srcSet={projectImages.hero.desktop} />
+                <source media="(min-width:730px)" srcSet={projectImages.hero.tablet} />
+                <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x} />
+                <img src={projectImages.hero.mobile} alt="Decoration"/>
             </picture>
         </section>
 
@@ -21,29 +32,27 @@ const Bookmark = () => {
             <div className="P-container">
 
                 <h1 className="title">
-                    Bookmark
+                    {projectIntro.name}
                 </h1>
 
                 <p className="text">
-                    This project required me to build a fully responsive landing page to the designs 
-				provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
-				required interactivity, such as the features section.
+                    {projectIntro.description}
                 </p>
 
 
                 <div className="tecnologies">
                     <span className="alternativeText">
-                        Interaction Design / Front End Development
+                        {projectIntro.implementations}
                     </span>
         
                     <span className="alternativeText">
-                        HTML / CSS / JS
+                        {projectIntro.description}
                     </span>
 
                 </div>
 
                 <button type="button" className="secondaryButton">
-                    Visit Website
+                    {projectIntro.button}
                 </button>
 
             </div>
@@ -55,36 +64,31 @@ const Bookmark = () => {
             <div className="P-description">
 
                 <h2 className="subtitle">
-                    Project Background
+                    {projectData.title}
                 </h2>
 
                 <p className="text">
-                    This project was a front-end  challenge from Frontend Mentor. It's a platform that 
-                    enables you to practice building websites to a design and project brief. Each challenge 
-                    includes mobile and desktop designs to show how the website should look at different 
-                    screen sizes. Creating these projects has helped me refine my workflow and solve 
-                    real-world coding problems. I've learned something new with each project, helping 
-                    me to improve and adapt my style.
+                    {projectData.description}
                 </p>
 
                 <h2 className="subtitle">
-                    Static Previews
+                    {projectData.subtitle}
                 </h2>
 
                 <div className="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-preview-1@2x.jpg"/>
-                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-preview-1@2x.jpg"/>
-                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-preview-1@2x.jpg"/>
-                        <img src="/images/detail/mobile/image-bookmark-preview-1.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet={projectImages.hero.desktop}/>
+                        <source media="(min-width:730px)" srcSet={projectImages.hero.tablet}/>
+                        <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x}/>
+                        <img src={projectImages.hero.mobile} alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcSet="/images/detail/desktop/image-bookmark-preview-2@2x.jpg"/>
-                        <source media="(min-width:730px)" srcSet="/images/detail/tablet/image-bookmark-preview-2@2x.jpg"/>
-                        <source media="(min-width:500px)" srcSet="/images/detail/mobile/image-bookmark-preview-2@2x.jpg"/>
-                        <img src="/images/detail/mobile/image-bookmark-preview-2.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet={projectImages.hero.desktop}/>
+                        <source media="(min-width:730px)" srcSet={projectImages.hero.tablet}/>
+                        <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x}/>
+                        <img src={projectImages.hero.mobile} alt="Decoration"/>
                     </picture>
 
                 </div>
@@ -100,7 +104,7 @@ const Bookmark = () => {
 
                 <h3 className="subtitle">Manage</h3>
 
-                <span>Previous Project</span>
+                <span>{projectFooter.previous}</span>
             </Link>
 
             <div className="middleLine"></div>
@@ -111,25 +115,12 @@ const Bookmark = () => {
 
                 <h3 className="subtitle">Insure</h3>
 
-                <span>Next Project</span>
+                <span>{projectFooter.next}</span>
             </Link>
         </section>
 
 
-        <section className="RS-contact">
-            <h2 className="title">
-                Interested in doing a project together?
-            </h2>
-
-            <span className="line"></span>
-
-
-            <Link to="/contact">
-                <button type="button" className="secondaryButton">
-                    CONTACT ME
-                </button>
-            </Link>
-        </section>
+        <ProjectFooter/>
 
 
     </main>

@@ -22,30 +22,52 @@
             "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
             "button2": "GO TO PORTFOLIO"
         },
-        "portolio": {
-            "projects": [
+        "portolio": [
                 {
                     "name": "Manage",
                     "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-                    "button": "VIEW PROJECT"
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-manage@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-manage.jpg"
+                    }
                 },
                 {
                     "name": "Bookmark",
                     "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
-                    "button": "VIEW PROJECT"
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-bookmark.jpg"
+                    }
                 },
                 {
                     "name": "Insure",
                     "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
-                    "button": "VIEW PROJECT"
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-insure@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-insure@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-insure@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-insure.jpg"
+                    }
                 },
                 {
                     "name": "Fylo",
                     "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-                    "button": "VIEW PROJECT"
+                    "button": "VIEW PROJECT",
+                    "images": {
+                        "desktop": "/images/portfolio/desktop/image-portfolio-fylo@2x.jpg",
+                        "tablet": "/images/portfolio/tablet/image-portfolio-fylo@2x.jpg",
+                        "mobile2x": "/images/portfolio/mobile/image-portfolio-fylo@2x.jpg",
+                        "mobile": "/images/portfolio/mobile/image-portfolio-fylo.jpg"
+                    }
                 }
-            ]
-        },
+            ],
         "contact": {
             "title1": "Get in Touch",
             "description": "I'd love to hear about what you're working on and how I could help. I'm currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I'm also happy to hear about opportunites that don't fit that description. I'm a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.",
@@ -63,18 +85,35 @@
                 "previous": "Proyecto Anterior",
                 "next": "Siguiente Proyecto"
             },
-            "Details": 
-            [
-                {
+            "details": 
+            {
+                "bookmark": {
                     "images": {
-                        "desktop": "/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
-                        "tablet": "/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
-                        "mobile2x": "/images/portfolio/mobile/image-portfolio-manage@2x.jpg",
-                        "mobile": "/images/portfolio/mobile/image-portfolio-manage.jpg"
+                        "hero": 
+                        {
+                            "desktop": "/images/detail/desktop/image-bookmark-hero@2x.jpg",
+                            "tablet": "/images/detail/tablet/image-bookmark-hero@2x.jpg",
+                            "mobile2x": "/images/detail/mobile/image-bookmark-hero@2x.jpg",
+                            "mobile": "/images/detail/mobile/image-bookmark-hero.jpg"
+                        },
+                        "preview": [
+                            {
+                                "desktop": "/images/detail/desktop/image-bookmark-preview-1@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-bookmark-preview-1@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-1@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-bookmark-preview-1.jpg"
+                            },
+                            {
+                                "desktop": "/images/detail/desktop/image-bookmark-preview-2@2x.jpg",
+                                "tablet": "/images/detail/tablet/image-bookmark-preview-2@2x.jpg",
+                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-2@2x.jpg",
+                                "mobile": "/images/detail/mobile/image-bookmark-preview-2.jpg"
+                            }
+                        ]
                     },
                     "intro": {
                         "name": "Bookmark",
-                        "description1": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
                         "implementations": "Interaction Design / Front End Development",
                         "tecnologies": "HTML / CSS / JS",
                         "button": "VISIT WEBSITE"
@@ -85,10 +124,10 @@
                         "subtitle": "Static Previews"
                     }
                 },
-                {
+                "fylo": {
                     "intro": {
                         "name": "Fylo",
-                        "description1": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                         "implementations": "Interaction Design / Front End Development",
                         "tecnologies": "HTML / CSS",
                         "button": "VISIT WEBSITE"
@@ -99,10 +138,10 @@
                         "subtitle": "Static Previews"
                     }
                 },
-                {
+                "insure": {
                     "intro": {
                         "name": "Insure",
-                        "description1": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                        "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
                         "implementations": "Interaction Design / Front End Development",
                         "tecnologies": "HTML / CSS / JS",
                         "button": "VISIT WEBSITE"
@@ -113,10 +152,10 @@
                         "subtitle": "Static Previews"
                     }
                 },
-                {
+                "manage": {
                     "intro": {
                         "name": "Manage",
-                        "description1": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
                         "implementations": "Interaction Design / Front End Development",
                         "tecnologies": "HTML / CSS / JS",
                         "button": "VISIT WEBSITE"
@@ -127,7 +166,7 @@
                         "subtitle": "Static Previews"
                     }
                 }
-            ]
+            }
         }
     },
 
@@ -193,7 +232,7 @@
             "project1": {
                 "intro": {
                     "name": "Bookmark",
-                    "description1": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
                     "implementations": "Interaction Design / Front End Development",
                     "tecnologies": "HTML / CSS / JS",
                     "button": "VISITAR LA PAGINA"
@@ -207,7 +246,7 @@
             "project2": {
                 "intro": {
                     "name": "Fylo",
-                    "description1": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                    "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                     "implementations": "Interaction Design / Front End Development",
                     "tecnologies": "HTML / CSS",
                     "button": "VISITAR LA PAGINA"
@@ -221,7 +260,7 @@
             "project3": {
                 "intro": {
                     "name": "Insure",
-                    "description1": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                    "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
                     "implementations": "Interaction Design / Front End Development",
                     "tecnologies": "HTML / CSS / JS",
                     "button": "VISITAR LA PAGINA"
@@ -235,7 +274,7 @@
             "project4": {
                 "intro": {
                     "name": "Manage",
-                    "description1": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
                     "implementations": "Interaction Design / Front End Development",
                     "tecnologies": "HTML / CSS / JS",
                     "button": "VISITAR LA PAGINA"
