@@ -1,18 +1,26 @@
 import '../../css/details.css'
 import { Link } from 'react-router-dom';
+import ProjectFooter from './ProjectFooter';
+import { useContext } from 'react';
+import { LangContext } from "../LanguageContext"
 
 const Insure = () => {
+const { data } = useContext(LangContext)
 
+    const projectImages = data.projects.details.insure.images 
+    const projectIntro = data.projects.details.insure.intro
+    const projectData = data.projects.details.insure.projectDescription
+    const projectFooter = data.projects.footer
 
     return (
     <main>
 
         <section className="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcset="/images/detail/desktop/image-insure-hero@2x.jpg"/>
-                <source media="(min-width:730px)" srcset="/images/detail/tablet/image-insure-hero@2x.jpg"/>
-                <source media="(min-width:500px)" srcset="/images/detail/mobile/image-insure-hero@2x.jpg"/>
-                <img src="/images/detail/mobile/image-insure-hero.jpg" alt="Decoration"/>
+                <source media="(min-width:880px)" srcSet={projectImages.hero.desktop} />
+                <source media="(min-width:730px)" srcSet={projectImages.hero.tablet} />
+                <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x} />
+                <img src={projectImages.hero.mobile} alt="Decoration"/>
             </picture>
         </section>
 
@@ -21,28 +29,27 @@ const Insure = () => {
             <div className="P-container">
 
                 <h1 className="title">
-                    Insure
+                    {projectIntro.name}
                 </h1>
 
                 <p className="text">
-                    This was a small project which mostly consisted of HTML and CSS. I built a 
-                    fully-responsive landing page. The only JavaScript this project required was 
-                    to enable the toggling of the mobile navigation.
+                    {projectIntro.description}
                 </p>
+
 
                 <div className="tecnologies">
                     <span className="alternativeText">
-                        Interaction Design / Front End Development
+                        {projectIntro.implementations}
                     </span>
         
                     <span className="alternativeText">
-                        HTML / CSS / JS
+                        {projectIntro.tecnologies}
                     </span>
 
                 </div>
 
                 <button type="button" className="secondaryButton">
-                    Visit Website
+                    {projectIntro.button}
                 </button>
 
             </div>
@@ -54,36 +61,31 @@ const Insure = () => {
             <div className="P-description">
 
                 <h2 className="subtitle">
-                    Project Background
+                    {projectData.title}
                 </h2>
 
                 <p className="text">
-                    This project was a front-end  challenge from Frontend Mentor. It's a platform that 
-                    enables you to practice building websites to a design and project brief. Each challenge 
-                    includes mobile and desktop designs to show how the website should look at different 
-                    screen sizes. Creating these projects has helped me refine my workflow and solve 
-                    real-world coding problems. I've learned something new with each project, helping 
-                    me to improve and adapt my style.
+                    {projectData.description}
                 </p>
 
                 <h2 className="subtitle">
-                    Static Previews
+                    {projectData.subtitle}
                 </h2>
 
                 <div className="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-insure-preview-1@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-insure-preview-1@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-insure-preview-1@2x.jpg"/>
-                        <img src="/images/detail/mobile/image-insure-preview-1.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet={projectImages.hero.desktop}/>
+                        <source media="(min-width:730px)" srcSet={projectImages.hero.tablet}/>
+                        <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x}/>
+                        <img src={projectImages.hero.mobile} alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcset="/images/detail/desktop/image-insure-preview-2@2x.jpg"/>
-                        <source media="(min-width:730px)" srcset="/images/detail/tablet/image-insure-preview-2@2x.jpg"/>
-                        <source media="(min-width:500px)" srcset="/images/detail/mobile/image-insure-preview-2@2x.jpg"/>
-                        <img src="/images/detail/mobile/image-insure-preview-2.jpg" alt="Decoration"/>
+                        <source media="(min-width:880px)" srcSet={projectImages.hero.desktop}/>
+                        <source media="(min-width:730px)" srcSet={projectImages.hero.tablet}/>
+                        <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x}/>
+                        <img src={projectImages.hero.mobile} alt="Decoration"/>
                     </picture>
 
                 </div>
@@ -94,40 +96,28 @@ const Insure = () => {
 
         <section className="P-more">
 
-            <Link to="/project/bookmark" className="previous">
+            <Link to="/project/manage" className="previous">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8"/></svg>
 
-                <h3 className="subtitle">Bookmark</h3>
+                <h3 className="subtitle">Manage</h3>
 
-                <span>Previous Project</span>
+                <span>{projectFooter.previous}</span>
             </Link>
 
             <div className="middleLine"></div>
 
-            <Link to="/project/fylo" className="next">
+            <Link to="/project/insure" className="next">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8"/></svg>
 
-                <h3 className="subtitle">Fylo</h3>
+                <h3 className="subtitle">Insure</h3>
 
-                <span>Next Project</span>
+                <span>{projectFooter.next}</span>
             </Link>
         </section>
 
 
-        <section className="RS-contact">
-            <h2 className="title">
-                Interested in doing a project together?
-            </h2>
-
-            <span className="line"></span>
-
-            <Link to="/contact">
-                <button type="button" className="secondaryButton">
-                    CONTACT ME
-                </button>
-            </Link>
-        </section>
+        <ProjectFooter/>
 
 
     </main>
