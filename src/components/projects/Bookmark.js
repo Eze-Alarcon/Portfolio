@@ -1,6 +1,6 @@
 import '../../css/details.css'
 import { Link } from 'react-router-dom';
-import ProjectFooter from './ProjectFooter';
+import ContactSection from '../RepetitiveSection';
 import { useContext } from 'react';
 import { LangContext } from "../LanguageContext"
 
@@ -120,7 +120,7 @@ const Bookmark = () => {
         </section>
 
 
-        <ProjectFooter/>
+        <ContactSection/>
 
 
     </main>
