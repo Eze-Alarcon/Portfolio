@@ -51,7 +51,7 @@ const Header = () => {
                         <li><Link to="/">{headerData.link1}</Link></li>
                         <li><Link to="/index">{headerData.link2}</Link></li>
                         <li><Link to="/contact">{headerData.link3}</Link></li>
-                        <li><a href=".#" onClick={changeLang}>{headerData.link4}</a></li>
+                        <li><span onClick={changeLang}>{headerData.link4}</span></li>
                     </ul>
                 </nav>
             </div>

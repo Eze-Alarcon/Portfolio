@@ -13,61 +13,80 @@
         },
         "genericEnd": {
             "title": "Interested in doing a project together?",
-            "button": "Contact Me"
+            "button": "CONTACT ME"
         },
         "home": {
+            "images": 
+            {
+                "hero": 
+                {
+                    "desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
+                    "tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
+                    "mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
+                    "mobile": "/images/homepage/mobile/image-homepage-hero.jpg"
+                },
+                "profile": 
+                {
+                    "desktop": "/images/homepage/desktop/image-homepage-profile@2x.jpg",
+                    "tablet": "/images/homepage/tablet/image-homepage-profile@2x.jpg",
+                    "mobile2x": "/images/homepage/mobile/image-homepage-profile@2x.jpg",
+                    "mobile": "/images/homepage/mobile/image-homepage-profile.jpg"
+                }
+
+            },
             "title": "Hey, I'm Alex Spencer and I love building beautiful websites",
             "button1": "ABOUT ME",
-            "subtitle1": "About Me",
+            "subtitle": "About Me",
             "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
             "button2": "GO TO PORTFOLIO"
         },
-        "portolio": [
-                {
-                    "name": "Manage",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-                    "button": "VIEW PROJECT",
-                    "images": {
-                        "desktop": "/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
-                        "tablet": "/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
-                        "mobile2x": "/images/portfolio/mobile/image-portfolio-manage@2x.jpg",
-                        "mobile": "/images/portfolio/mobile/image-portfolio-manage.jpg"
-                    }
-                },
-                {
-                    "name": "Bookmark",
-                    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
-                    "button": "VIEW PROJECT",
-                    "images": {
-                        "desktop": "/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
-                        "tablet": "/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
-                        "mobile2x": "/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
-                        "mobile": "/images/portfolio/mobile/image-portfolio-bookmark.jpg"
-                    }
-                },
-                {
-                    "name": "Insure",
-                    "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
-                    "button": "VIEW PROJECT",
-                    "images": {
-                        "desktop": "/images/portfolio/desktop/image-portfolio-insure@2x.jpg",
-                        "tablet": "/images/portfolio/tablet/image-portfolio-insure@2x.jpg",
-                        "mobile2x": "/images/portfolio/mobile/image-portfolio-insure@2x.jpg",
-                        "mobile": "/images/portfolio/mobile/image-portfolio-insure.jpg"
-                    }
-                },
-                {
-                    "name": "Fylo",
-                    "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-                    "button": "VIEW PROJECT",
-                    "images": {
-                        "desktop": "/images/portfolio/desktop/image-portfolio-fylo@2x.jpg",
-                        "tablet": "/images/portfolio/tablet/image-portfolio-fylo@2x.jpg",
-                        "mobile2x": "/images/portfolio/mobile/image-portfolio-fylo@2x.jpg",
-                        "mobile": "/images/portfolio/mobile/image-portfolio-fylo.jpg"
-                    }
+        "portolio": 
+        [
+            {
+                "name": "Manage",
+                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                "button": "VIEW PROJECT",
+                "images": {
+                    "desktop": "/images/portfolio/desktop/image-portfolio-manage@2x.jpg",
+                    "tablet": "/images/portfolio/tablet/image-portfolio-manage@2x.jpg",
+                    "mobile2x": "/images/portfolio/mobile/image-portfolio-manage@2x.jpg",
+                    "mobile": "/images/portfolio/mobile/image-portfolio-manage.jpg"
                 }
-            ],
+            },
+            {
+                "name": "Bookmark",
+                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                "button": "VIEW PROJECT",
+                "images": {
+                    "desktop": "/images/portfolio/desktop/image-portfolio-bookmark@2x.jpg",
+                    "tablet": "/images/portfolio/tablet/image-portfolio-bookmark@2x.jpg",
+                    "mobile2x": "/images/portfolio/mobile/image-portfolio-bookmark@2x.jpg",
+                    "mobile": "/images/portfolio/mobile/image-portfolio-bookmark.jpg"
+                }
+            },
+            {
+                "name": "Insure",
+                "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                "button": "VIEW PROJECT",
+                "images": {
+                    "desktop": "/images/portfolio/desktop/image-portfolio-insure@2x.jpg",
+                    "tablet": "/images/portfolio/tablet/image-portfolio-insure@2x.jpg",
+                    "mobile2x": "/images/portfolio/mobile/image-portfolio-insure@2x.jpg",
+                    "mobile": "/images/portfolio/mobile/image-portfolio-insure.jpg"
+                }
+            },
+            {
+                "name": "Fylo",
+                "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                "button": "VIEW PROJECT",
+                "images": {
+                    "desktop": "/images/portfolio/desktop/image-portfolio-fylo@2x.jpg",
+                    "tablet": "/images/portfolio/tablet/image-portfolio-fylo@2x.jpg",
+                    "mobile2x": "/images/portfolio/mobile/image-portfolio-fylo@2x.jpg",
+                    "mobile": "/images/portfolio/mobile/image-portfolio-fylo.jpg"
+                }
+            }
+        ],
         "contact": {
             "title1": "Get in Touch",
             "description": "I'd love to hear about what you're working on and how I could help. I'm currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I'm also happy to hear about opportunites that don't fit that description. I'm a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.",
@@ -255,13 +274,32 @@
             "link3": "CONTACTAME"
         },
         "genericEnd": {
-            "title": "¿Interesado en hacer proyectos juntos?",
-            "button": "Contactame"
+            "title": "¿Interesado en hacer proyectos?",
+            "button": "CONTACTAME"
         },
-        "home": {
+        "home": 
+        {
+            "images": 
+            {
+                "hero": 
+                {
+                    "desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
+                    "tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
+                    "mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
+                    "mobile": "/images/homepage/mobile/image-homepage-hero.jpg"
+                },
+                "profile": 
+                {
+                    "desktop": "/images/homepage/desktop/image-homepage-profile@2x.jpg",
+                    "tablet": "/images/homepage/tablet/image-homepage-profile@2x.jpg",
+                    "mobile2x": "/images/homepage/mobile/image-homepage-profile@2x.jpg",
+                    "mobile": "/images/homepage/mobile/image-homepage-profile.jpg"
+                }
+
+            },
             "title": "Hey, I'm Alex Spencer and I love building beautiful websites",
             "button1": "ABOUT ME",
-            "subtitle1": "About Me",
+            "subtitle": "About Me",
             "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
             "button2": "GO TO PORTFOLIO"
         },

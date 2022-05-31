@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 // Pages
 import Home from './components/Home';
-import PortfolioIndex from './components/Portfolio-index';
+import PortfolioIndex from './components/PortfolioIndex';
 import Contact from './components/Contact'
 
 // Projects

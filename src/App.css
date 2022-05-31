@@ -272,7 +272,9 @@ header {
 }
 
 
-.navbar li a {
+.navbar li a,
+.navbar li span
+ {
     padding: 1rem;
     display: block;
     color: var(--PC-black);
@@ -281,10 +283,12 @@ header {
     font-weight: 400;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
+    cursor: pointer;
 }
 
 
-.navbar li a:hover {
+.navbar li a:hover,
+.navbar li span:hover {
     color: var(--PC-cyan);
 } 
 
