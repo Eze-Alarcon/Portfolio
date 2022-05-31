@@ -1,19 +1,24 @@
 import '../css/contact.css'
+import { useContext } from "react";
+import { LangContext } from "./LanguageContext";
+
 
 const Contact = () => {
+	const { data } = useContext(LangContext)
+
+	const contactData = data.contact
+	const formData = data.contact.form
+
     return (
     <main>
 
 		<section className="C-description">
-			<h1 className="title">Get in Touch</h1>
+			<h1 className="title">
+				{contactData.title1}
+			</h1>
 
 			<p className="text">
-				I'd love to hear about what you're working on and how I could help. I'm currently 
-				looking for a new role and am open to a wide range of opportunities. My preference 
-				would be to find a position in a company in London. But I'm also happy to hear about 
-				opportunites that don't fit that description. I'm a hard-working and positive person 
-				who will always approach each task with a sense of purpose and attention to detail. 
-				Please do feel free to check out my online profiles below and get in touch using the form.
+				{contactData.description}
 			</p>
 
 			<div className="icons">
@@ -26,27 +31,62 @@ const Contact = () => {
 
 		<section className="C-form">
 
-			<h2 className="title">Contact Me</h2>
+			<h2 className="title">{contactData.title2}</h2>
 
 			<form action="#" className="contact-form">
 
-				<label className="formLabel" htmlFor="fullName">Name</label>
+				<label className="formLabel" htmlFor="fullName">{formData.label1}</label>
 				<input className="textField" id="fullName" type="text" placeholder="Jane Appleseed"/>
 
-				<label className="formLabel" htmlFor="email">Email Address</label>
+				<label className="formLabel" htmlFor="email">{formData.label2}</label>
 				<input className="textField" id="email" type="email" placeholder="email@example.com"/>
 
-				<label className="formLabel" htmlFor="message">Message</label>
+				<label className="formLabel" htmlFor="message">{formData.label3}</label>
 				<textarea className="textArea" name="message" id="message" placeholder="How can I help?" cols="30" rows="10"></textarea>
 
 				<button type="button" className="primaryButton">
-					SEND MESSAGE
+					{formData.button}
 				</button>
 			</form>
 		</section>
+
+		{/* <a href="https://api.whatsapp.com/send?phone=34658623971&text=Hello">Send WhatsApp Message</a> */}
 
 	</main>
     )
 }
 
 export default Contact;
+
+
+/* 
+
+Send Email
+
+https://netcorecloud.com/tutorials/how-to-send-emails-with-javascript/
+
+
+https://medium.com/@mariusc23/send-an-email-using-only-javascript-b53319616782
+
+
+Send WhatsApp Msg
+
+https://stackoverflow.com/questions/47243154/how-to-send-whatsapp-message-via-javascript
+
+https://brightwhiz.com/send-whatsapp-message-through-html-link/
+
+
+// github: omar-bakhsh
+function send_handle(){
+
+  let num=document.getElementById("number").value;
+
+  let msg= document.getElementById("msg").value;
+
+    let name= document.getElementById("name").value;
+  
+  var win = window.open(`https://wa.me/${num}?text=I%27m%20api%20msg%20hello%20${name}%20friend%20${msg}`, '_blank');
+ // win.focus();
+}
+
+*/

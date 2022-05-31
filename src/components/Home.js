@@ -10,6 +10,12 @@ const Home = () => {
 	const homeData = data.home
 	const homeImages = data.home.images
 
+	 const goTo = () => {
+        const anchor = document.getElementById("aboutMe")
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+
+
     return (
         <main>
 		<section className="I-intro">
@@ -26,7 +32,7 @@ const Home = () => {
 					{homeData.title}
 				</h1>
 	
-				<button type="button" className="primaryButton"> 
+				<button type="button" className="primaryButton" onClick={goTo}> 
 					<div className="PB-iconContainer">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"><g fill="none" fillRule="evenodd" stroke="#5FB4A2"><path d="M0 9l8 4 8-4"/><path opacity="1" d="M0 5l8 4 8-4"/><path opacity=".5" d="M0 1l8 4 8-4"/></g></svg>
 					</div>
@@ -40,7 +46,7 @@ const Home = () => {
 
 
 
-		<section className="I-myInfo">
+		<section className="I-myInfo" id="aboutMe">
 			<picture>
 					<source media="(min-width:1280px)" srcSet={homeImages.profile.desktop} />
 					<source media="(min-width:730px)" srcSet={homeImages.profile.tablet} />
