@@ -12,7 +12,7 @@ const Home = () => {
 
 	 const goTo = () => {
         const anchor = document.getElementById("aboutMe")
-        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
 
 
