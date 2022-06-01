@@ -42,7 +42,7 @@ const Contact = () => {
 				<input className="textField" id="email" name="email" type="email" placeholder="email@example.com"/>
 
 				<label className="formLabel" htmlFor="message">{formData.label3}</label>
-				<textarea className="textArea" id="message" name="message" placeholder="How can I help?" cols="30" rows="10"></textarea>
+				<textarea className="textArea" id="message" name="message" placeholder={formData.placeHolder3} cols="30" rows="10"></textarea>
 
 				<button type="submit" className="primaryButton">
 					{formData.button}

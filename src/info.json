@@ -37,7 +37,7 @@
             "title": "Hey, I'm Alex Spencer and I love building beautiful websites",
             "button1": "ABOUT ME",
             "subtitle": "About Me",
-            "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
+            "description": "I am a junior front-end developer looking for a new role in an exciting company. I focus on writing HTML as semantic as possible, using CSS practices and writing clean JavaScript. When writing JavaScript code, I mainly use React, but I can adapt to any tool required. Right now I'm based in Madrid, Spain, but I come from a small town in Córdoba, Argentina. When I'm not coding, you'll find me learning some new technology, looking for ways to improve the ones I know, but I also enjoy exploring new places, either inside or outside the city. My future plans involve learning more about front-end development and learning about back-end so I can create more complex solutions when needed.",
             "button2": "GO TO PORTFOLIO"
         },
         "portolio": 
@@ -89,12 +89,13 @@
         ],
         "contact": {
             "title1": "Get in Touch",
-            "description": "I'd love to hear about what you're working on and how I could help. I'm currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I'm also happy to hear about opportunites that don't fit that description. I'm a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.",
+            "description": "I would love to know what you are working on and how I could help you. I am currently looking for a new position and am open to a wide range of opportunities. My preference would be to find a position at a company with remote work. But I am also willing to listen to opportunities that do not fit that description. I am a hardworking and positive person who will always approach every task with a sense of purpose and attention to detail. Please feel free to review my online profiles below and get in touch using the form.",
             "title2": "Contact Me",
             "form": {
                 "label1": "Name",
                 "label2": "Email Address",
                 "label3": "Message",
+                "placeHolder3": "How can I help?",
                 "button": "SEND MESSAGE"
             }
         },
@@ -299,7 +300,7 @@
             "title": "Hola, soy Ezequiel Alarcon y me encanta crear paginas web",
             "button1": "SOBRE MI",
             "subtitle": "Sobre Mi",
-            "description": "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I'm based in London, UK, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me outdoors. I love being out in nature whether that's going for a walk, run or cycling. I'd love you to check out my work.",
+            "description": "Soy un desarrollador front-end junior que busca un nuevo papel en una empresa emocionante. Me enfoco en escribir HTML lo más semántico posible, usando prácticas de CSS y escribiendo JavaScript limpio. Cuando escribo código JavaScript, principalmente utilizo React, pero puedo adaptarme a cualquier herramienta que se requiera. Ahora mismo estoy radicado en Madrid, España, pero provengo de una pequeña ciudad en Córdoba, Argentina. Cuando no estoy codificando, me encontraras aprendiendo alguna nueva tecnología, buscando maneras de mejorar aquellas que conozco, pero también disfruto de explorar lugares nuevos, ya sean dentro o fuera de la ciudad.Mis planes a futuro involucran conocer más del desarrollo front-end y aprender sobre back-end para poder crear soluciones más complejas cuando sean necesarias.",
             "button2": "IR AL PORTFOLIO"
         },
         "portolio": 
@@ -351,12 +352,13 @@
         ],
         "contact": {
             "title1": "Ponerse en Contacto",
-            "description": "I'd love to hear about what you're working on and how I could help. I'm currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. But I'm also happy to hear about opportunites that don't fit that description. I'm a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.",
+            "description": "Me encantaría saber en qué estás trabajando y cómo podría ayudarte. Actualmente, estoy buscando un nuevo puesto y estoy abierto a una amplia gama de oportunidades. Mi preferencia sería encontrar un puesto en una empresa con trabajo remoto. Pero también estoy dispuesto a escuchar oportunidades que no se ajusten a esa descripción. Soy una persona trabajadora y positiva que siempre abordará cada tarea con un sentido de propósito y atención al detalle. Por favor, siéntase libre de revisar mis perfiles en línea a continuación y póngase en contacto utilizando el formulario.",
             "title2": "Contact Me",
             "form": {
                 "label1": "Nombre",
                 "label2": "Correo Electronico",
                 "label3": "Mensaje",
+                "placeHolder3": "¿Cómo puedo ayudar?",
                 "button": "ENVIAR MENSAJE"
             }
         },
