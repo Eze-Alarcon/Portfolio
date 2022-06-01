@@ -33,60 +33,25 @@ const Contact = () => {
 
 			<h2 className="title">{contactData.title2}</h2>
 
-			<form action="#" className="contact-form">
+			<form method="POST" action="https://getform.io/f/790281fa-8990-4024-aab3-a840fc97980d" className="contact-form">
 
 				<label className="formLabel" htmlFor="fullName">{formData.label1}</label>
-				<input className="textField" id="fullName" type="text" placeholder="Jane Appleseed"/>
+				<input className="textField" id="fullName" name="name" type="text" placeholder="Jane Appleseed"/>
 
 				<label className="formLabel" htmlFor="email">{formData.label2}</label>
-				<input className="textField" id="email" type="email" placeholder="email@example.com"/>
+				<input className="textField" id="email" name="email" type="email" placeholder="email@example.com"/>
 
 				<label className="formLabel" htmlFor="message">{formData.label3}</label>
-				<textarea className="textArea" name="message" id="message" placeholder="How can I help?" cols="30" rows="10"></textarea>
+				<textarea className="textArea" id="message" name="message" placeholder="How can I help?" cols="30" rows="10"></textarea>
 
-				<button type="button" className="primaryButton">
+				<button type="submit" className="primaryButton">
 					{formData.button}
 				</button>
 			</form>
 		</section>
-
-		{/* <a href="https://api.whatsapp.com/send?phone=34658623971&text=Hello">Send WhatsApp Message</a> */}
 
 	</main>
     )
 }
 
 export default Contact;
-
-
-/* 
-
-Send Email
-
-https://netcorecloud.com/tutorials/how-to-send-emails-with-javascript/
-
-
-https://medium.com/@mariusc23/send-an-email-using-only-javascript-b53319616782
-
-
-Send WhatsApp Msg
-
-https://stackoverflow.com/questions/47243154/how-to-send-whatsapp-message-via-javascript
-
-https://brightwhiz.com/send-whatsapp-message-through-html-link/
-
-
-// github: omar-bakhsh
-function send_handle(){
-
-  let num=document.getElementById("number").value;
-
-  let msg= document.getElementById("msg").value;
-
-    let name= document.getElementById("name").value;
-  
-  var win = window.open(`https://wa.me/${num}?text=I%27m%20api%20msg%20hello%20${name}%20friend%20${msg}`, '_blank');
- // win.focus();
-}
-
-*/
