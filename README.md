@@ -2,69 +2,46 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built with
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Grid
+- React.js
+- Getform.io
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What I learned
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To be honest, this was not the first version. This project started as semantic HTML and modern CSS but because I wanted to implement a way to have different languages and be able to quickly change projects, so I decided to implement React.js (a technology I was learning). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+OK, that said, I was faced with several challenges when it came to making what was supposed to be "a simple portfolio". Starting from "what project to show", to "how to implement a form" (I mean a form that really works and is not just visual, if you send a message through the form I will really receive an email) and also how to deal with different languages for the same page without the user having to reload all the pages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+At the time of making this portfolio, I had a full time job in an alarm monitoring center, with rotating shifts, so it was a complex task. It was a bit frustrating to have great ideas at work and have to wait until the end of the shift to go home and implement my idea (if I even remembered it) but with effort and dedication it worked out pretty well. 
 
-### `npm run eject`
+I doubt anyone will read this but even though it sounds like it was a difficult task I want to say that it was rather fun and I quite enjoyed this challenge. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+After overcoming these challenges and having my portfolio live I can say with full confidence that I love web development.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Useful resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) - This pages help me a lot back in the days and i still use it time to time, it has a lot of information in a very practical and visual way.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Ezequiel Alarcon - [My Portfolio (Live)](https://www.your-site.com)
