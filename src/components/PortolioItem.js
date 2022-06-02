@@ -5,7 +5,7 @@ const PortfolioItem = ({props}) => {
     return (
         <section className="projects">
 
-			<picture id={props.name}>
+			<picture id={props.id}>
 				<source media="(min-width:880px)" srcSet={props.images.desktop} />
 				<source media="(min-width:730px)" srcSet={props.images.tablet} />
 				<source media="(min-width:500px)" srcSet={props.images.mobile2x} />

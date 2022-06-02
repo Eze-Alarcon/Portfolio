@@ -486,6 +486,10 @@ header {
         margin: 0;
     }
     
+    .navbar li a,
+    .navbar li span {
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -731,7 +735,7 @@ footer .footer-container a {
     color: #FFFFFF;
     text-decoration: none;
     font-family: var(--SF-public);
-    font-family: 400;
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.6rem;
     letter-spacing: .3rem;

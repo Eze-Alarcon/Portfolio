@@ -129,7 +129,7 @@ section {
         min-height: 50rem;
     }
 
-    .text {
+    .projects .text {
         max-width: 50ch;
     }
 }
@@ -149,26 +149,76 @@ section {
 @media (min-width: 768px) and (max-width: 1280px) {
     .projects picture {
         height: 90%;
-        background-color: #3b4664;
         display: flex;
         align-items: center;
+        overflow: hidden;
     }
 }
 
 
 
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
 
-    .projects picture img {
-        border: none;
+    .projects picture {
+        max-height: 53rem;
+        overflow: hidden;
     }
 
-    .projects #Calculator {
+    /* .projects #project-fylo img {
+        min-height: 100%;
+        align-self: stretch !important;
+    } */
+
+
+    .projects #project-calculator {
         background-color: #3b4664;
     }
+
+    .projects #project-nft_card {
+        background-color: #0d1a2d;
+    }
+
+    .projects #project-eCommerce {
+        background-color: #FFFFFF;
+    }
+
+    .projects #project-fylo {
+        background-color: #f0f0f0;
+    }
+
+    .projects #project-movieApp {
+        background-color: #242333;
+    }
+
+    .projects #project-studio51 {
+        background-color: #1f1f23;
+    }
+
+    
 }
 
+
+/* 
+    Calculator
+        #3b4664
+
+    NFT Card
+        #0d1a2d
+
+    Ecommerce
+        #ffffff
+
+    Fylo
+        #f0f0f0
+
+    Movie App
+        #242333
+
+    Studio 51
+        #1f1f23
+
+*/
 
 
 /* 
@@ -179,7 +229,7 @@ section {
 
 
 @media (min-width: 768px) and (max-width: 1280px) {
-    .text {
+    .projects .text {
         display: -webkit-box;
         max-width: 336px;
         -webkit-line-clamp: 3;
@@ -187,3 +237,13 @@ section {
         overflow: hidden;
     }
 }
+
+
+
+/* 
+
+Cambiar font-size del header en resoluciones grandes
+
+cambiar font-family: 400 a font-weight: 400 en el footer
+
+*/
