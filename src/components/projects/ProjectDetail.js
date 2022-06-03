@@ -1,5 +1,5 @@
 import '../../css/details.css'
-import { Link } from 'react-router-dom';
+import PageSwitch from './PageSwitch'
 import ContactSection from '../RepetitiveSection';
 import { useContext } from 'react';
 import { LangContext } from "../LanguageContext"
@@ -13,6 +13,7 @@ const ProjectDetail = () => {
     const projectImages = data.projects.details[idProject].images 
     const projectIntro = data.projects.details[idProject].intro
     const projectData = data.projects.details[idProject].projectDescription
+    const projectPage = data.projects.details[idProject].footerProjects
     const projectFooter = data.projects.footer
 
     return (
@@ -99,24 +100,8 @@ const ProjectDetail = () => {
 
         <section className="P-more">
 
-            <Link to="/project/manage" className="previous">
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M9 0L1 8l8 8"/></svg>
-
-                <h3 className="subtitle">Manage</h3>
-
-                <span>{projectFooter.previous}</span>
-            </Link>
-
-            <div className="middleLine"></div>
-
-            <Link to="/project/insure" className="next">
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16"><path fill="none" stroke="#33323D" d="M1 0l8 8-8 8"/></svg>
-
-                <h3 className="subtitle">Insure</h3>
-
-                <span>{projectFooter.next}</span>
-            </Link>
+            <PageSwitch page={projectPage} text={projectFooter} />
+            
         </section>
 
 
