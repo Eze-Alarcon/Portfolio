@@ -146,10 +146,6 @@
                 "next": "Next Project"
             },
 
-
-
-
-
             "details": 
             {
                 "fylo": 
@@ -396,10 +392,10 @@
                                 "mobile": "/images/portfolio/my_projects/studio51_2.png"
                             },
                             {
-                                "desktop": "/images/portfolio/my_projects/studio51_3.png",
-                                "tablet": "/images/portfolio/my_projects/studio51_3.png",
-                                "mobile2x": "/images/portfolio/my_projects/studio51_3.png",
-                                "mobile": "/images/portfolio/my_projects/studio51_3.png"
+                                "desktop": "/images/portfolio/my_projects/studio51_1.png",
+                                "tablet": "/images/portfolio/my_projects/studio51_1.png",
+                                "mobile2x": "/images/portfolio/my_projects/studio51_1.png",
+                                "mobile": "/images/portfolio/my_projects/studio51_1.png"
                             }
                         ]
                     },
@@ -420,16 +416,6 @@
                         "previous": ""
                     }
                 }
-
-
-
-
-
-
-
-
-
-
             }
         }
     },
