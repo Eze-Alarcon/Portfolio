@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 const PortfolioItem = ({props}) => {
 
+	const linkTo = `/project/${props.link}`
+
     return (
         <section className="projects">
 
@@ -23,7 +25,7 @@ const PortfolioItem = ({props}) => {
 				</p>
 				
 
-				<Link to="/project/manage">
+				<Link to={linkTo}>
 					<button type="button" className="secondaryButton">
 						{props.button}
 					</button>

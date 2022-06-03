@@ -12,13 +12,14 @@ import PortfolioIndex from './components/PortfolioIndex';
 import Contact from './components/Contact'
 
 // Projects
-import Manage from './components/projects/Manage';
-import Bookmark from './components/projects/Bookmark';
-import Fylo from './components/projects/Fylo';
-import Insure from './components/projects/Insure';
+// import Manage from './components/projects/Manage';
+// import Bookmark from './components/projects/Bookmark';
+// import Fylo from './components/projects/Fylo';
+// import Insure from './components/projects/Insure';
 
 // Content call
 import Language from './components/LanguageContext'
+import ProjectDetail from './components/projects/ProjectDetail';
 
 
 function App() {
@@ -32,10 +33,12 @@ function App() {
 					<Route path="/" element={<Home/>} />
 					<Route path="/index" element={<PortfolioIndex/>} />
 					<Route path="/contact" element={<Contact/>} />
-						<Route path="/project/manage" element={<Manage/>} />
+
+						<Route path="/project/:idProject" element={<ProjectDetail/>} />
+						{/* <Route path="/project/manage" element={<Manage/>} />
 						<Route path="/project/bookmark" element={<Bookmark/>} />
 						<Route path="/project/fylo" element={<Fylo/>} />
-						<Route path="/project/insure" element={<Insure/>} />
+						<Route path="/project/insure" element={<Insure/>} /> */}
 				</Routes>
 			</ScrollToTop>
 			<Footer/>
