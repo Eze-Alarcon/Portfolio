@@ -23,14 +23,14 @@
                     "desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
                     "tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
                     "mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
-                    "mobile": "/images/homepage/mobile/image-homepage-hero.jpg"
+                    "mobile": "/images/homepage/mobile/image-homepage-hero@2x.jpg"
                 },
                 "profile": 
                 {
                     "desktop": "/images/homepage/desktop/image-homepage-profile@2x.jpg",
                     "tablet": "/images/homepage/tablet/image-homepage-profile@2x.jpg",
                     "mobile2x": "/images/homepage/mobile/image-homepage-profile@2x.jpg",
-                    "mobile": "/images/homepage/mobile/image-homepage-profile.jpg"
+                    "mobile": "/images/homepage/mobile/image-homepage-profile@2x.jpg"
                 }
 
             },
@@ -442,23 +442,57 @@
 
 
 
-    "es": {
-        "header": {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    "es": 
+    {
+        "header": 
+        {
             "link1": "INICIO",
             "link2": "PORTFOLIO",
             "link3": "CONTACTAME",
             "link4": "ENGLISH"
         },
-        "footer": {
+        "footer": 
+        {
             "link1": "INICIO",
             "link2": "PORTFOLIO",
             "link3": "CONTACTAME"
         },
-        "genericEnd": {
+        "genericEnd": 
+        {
             "title": "Interesado en hacer proyectos?",
             "button": "CONTACTAME"
         },
-        "home": {
+        "home": 
+        {
             "images": 
             {
                 "hero": 
@@ -466,14 +500,14 @@
                     "desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
                     "tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
                     "mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
-                    "mobile": "/images/homepage/mobile/image-homepage-hero.jpg"
+                    "mobile": "/images/homepage/mobile/image-homepage-hero@2x.jpg"
                 },
                 "profile": 
                 {
                     "desktop": "/images/homepage/desktop/image-homepage-profile@2x.jpg",
                     "tablet": "/images/homepage/tablet/image-homepage-profile@2x.jpg",
                     "mobile2x": "/images/homepage/mobile/image-homepage-profile@2x.jpg",
-                    "mobile": "/images/homepage/mobile/image-homepage-profile.jpg"
+                    "mobile": "/images/homepage/mobile/image-homepage-profile@2x.jpg"
                 }
 
             },
@@ -486,13 +520,14 @@
         "portolio": 
         [
             {   
-                "projectNumber": 1,
+                "projectNumber": 0,
                 "id": "project-studio51",
                 "name": "Studio 51",
-                "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                "description": "This project required me to build a fully responsive website to the designs provided. We used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, like the 'the companies that trust us' slider.",
                 "button": "VIEW PROJECT",
                 "link": "studio-51",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/studio51_2.png",
                     "tablet": "/images/portfolio/my_projects/studio51_2.png",
                     "mobile2x": "/images/portfolio/my_projects/studio51_2.png",
@@ -500,13 +535,14 @@
                 }
             },
             {   
-                "projectNumber": 2,
+                "projectNumber": 1,
                 "id": "project-calculator",
                 "name": "Calculator",
-                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                "description": "This project required building something as common as a calculator, to do so I implemented HTML and CSS for the visuals, and then used JavaScript to add the required logic.",
                 "button": "VIEW PROJECT",
                 "link": "calculator",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/calculator_1.jpg",
                     "tablet": "/images/portfolio/my_projects/calculator_1.jpg",
                     "mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
@@ -514,13 +550,14 @@
                 }
             },
             {
-                "projectNumber": 3,
+                "projectNumber": 2,
                 "id": "project-nft_card",
                 "name": "NFT Card",
-                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                "description": "This project required me to build a fully responsive card to the designs provided. I used HTML5, along with CSS flexbox.",
                 "button": "VIEW PROJECT",
                 "link": "nft-card",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/card_1.jpg",
                     "tablet": "/images/portfolio/my_projects/card_1.jpg",
                     "mobile2x": "/images/portfolio/my_projects/card_1.jpg",
@@ -528,13 +565,14 @@
                 }
             },
             {
-                "projectNumber": 4,
+                "projectNumber": 3,
                 "id": "project-eCommerce",
                 "name": "Ecommerce App",
                 "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
                 "button": "VIEW PROJECT",
                 "link": "ecommerce",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/eCommerce_1.png",
                     "tablet": "/images/portfolio/my_projects/eCommerce_1.png",
                     "mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
@@ -542,13 +580,14 @@
                 }
             },
             {
-                "projectNumber": 5,
+                "projectNumber": 4,
                 "id": "project-fylo",
                 "name": "Fylo",
-                "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
                 "button": "VIEW PROJECT",
                 "link": "fylo",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/fylo_2.jpg",
                     "tablet": "/images/portfolio/my_projects/fylo_2.jpg",
                     "mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
@@ -556,13 +595,14 @@
                 }
             },
             {
-                "projectNumber": 6,
+                "projectNumber": 5,
                 "id": "project-movieApp",
                 "name": "Movie App",
                 "link": "movie-app",
                 "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                 "button": "VIEW PROJECT",
-                "images": {
+                "images": 
+                {
                     "desktop": "/images/portfolio/my_projects/movieApp_2.png",
                     "tablet": "/images/portfolio/my_projects/movieApp_2.png",
                     "mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
@@ -570,7 +610,8 @@
                 }
             }
         ],
-        "contact": {
+        "contact": 
+        {
             "title1": "Ponerse en Contacto",
             "description": "Me encantaría saber en qué estás trabajando y cómo podría ayudarte. Actualmente, estoy buscando un nuevo puesto y estoy abierto a una amplia gama de oportunidades. Mi preferencia sería encontrar un puesto en una empresa con trabajo remoto. Pero también estoy dispuesto a escuchar oportunidades que no se ajusten a esa descripción. Soy una persona trabajadora y positiva que siempre abordará cada tarea con un sentido de propósito y atención al detalle. Por favor, siéntase libre de revisar mis perfiles en línea a continuación y póngase en contacto utilizando el formulario.",
             "title2": "Contact Me",
@@ -582,160 +623,331 @@
                 "button": "ENVIAR MENSAJE"
             }
         },
-        "projects": {
+        "projects": 
+        {
             "footer": 
             {
                 "previous": "Proyecto Anterior",
                 "next": "Siguiente Proyecto"
             },
+
             "details": 
             {
-                "bookmark": {
-                    "images": {
+                "studio-51": 
+                {
+                    "images": 
+                    {
                         "hero": 
                         {
-                            "desktop": "/images/detail/desktop/image-bookmark-hero@2x.jpg",
-                            "tablet": "/images/detail/tablet/image-bookmark-hero@2x.jpg",
-                            "mobile2x": "/images/detail/mobile/image-bookmark-hero@2x.jpg",
-                            "mobile": "/images/detail/mobile/image-bookmark-hero.jpg"
+                            "desktop": "/images/portfolio/my_projects/studio51_1.png",
+                            "tablet": "/images/portfolio/my_projects/studio51_1.png",
+                            "mobile2x": "/images/portfolio/my_projects/studio51_1.png",
+                            "mobile": "/images/portfolio/my_projects/studio51_1.png"
                         },
-                        "preview": [
+                        "preview": 
+                        [
                             {
-                                "desktop": "/images/detail/desktop/image-bookmark-preview-1@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-bookmark-preview-1@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-1@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-bookmark-preview-1.jpg"
+                                "desktop": "/images/portfolio/my_projects/studio51_2.png",
+                                "tablet": "/images/portfolio/my_projects/studio51_2.png",
+                                "mobile2x": "/images/portfolio/my_projects/studio51_2.png",
+                                "mobile": "/images/portfolio/my_projects/studio51_2.png"
                             },
                             {
-                                "desktop": "/images/detail/desktop/image-bookmark-preview-2@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-bookmark-preview-2@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-bookmark-preview-2@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-bookmark-preview-2.jpg"
+                                "desktop": "/images/portfolio/my_projects/studio51_3.png",
+                                "tablet": "/images/portfolio/my_projects/studio51_3.png",
+                                "mobile2x": "/images/portfolio/my_projects/studio51_3.png",
+                                "mobile": "/images/portfolio/my_projects/studio51_3.png"
                             }
                         ]
                     },
-                    "intro": {
-                        "name": "Bookmark",
-                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                    "intro": 
+                    {
+                        "name": "Studio 51",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                         "implementations": "Interaction Design / Front End Development",
-                        "tecnologies": "HTML / CSS / JS",
-                        "button": "VISIT WEBSITE"
+                        "tecnologies": "HTML / CSS / Boostrap",
+                        "button": "VISIT WEBSITE",
+                        "website": "https://studio-51.000webhostapp.com/index.html"
                     },
-                    "projectDescription": {
+                    "projectDescription": 
+                    {
                         "title": "Project Background",
                         "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
                         "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "calculator",
+                        "nextName": "Calculator",
+                        "previous": "movie-app",
+                        "previousName": "Movie App"
                     }
                 },
-                "fylo": {
-                    "images": {
+
+
+
+
+                "calculator": 
+                {
+                    "images": 
+                    {
                         "hero": 
                         {
-                            "desktop": "/images/detail/desktop/image-fylo-hero@2x.jpg",
-                            "tablet": "/images/detail/tablet/image-fylo-hero@2x.jpg",
-                            "mobile2x": "/images/detail/mobile/image-fylo-hero@2x.jpg",
-                            "mobile": "/images/detail/mobile/image-fylo-hero.jpg"
+                            "desktop": "/images/portfolio/my_projects/calculator_1.jpg",
+                            "tablet": "/images/portfolio/my_projects/calculator_1.jpg",
+                            "mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
+                            "mobile": "/images/portfolio/my_projects/calculator_1.jpg"
                         },
-                        "preview": [
+                        "preview": 
+                        [
                             {
-                                "desktop": "/images/detail/desktop/image-fylo-preview-1@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-fylo-preview-1@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-fylo-preview-1@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-fylo-preview-1.jpg"
+                                "desktop": "/images/portfolio/my_projects/calculator_3.jpg",
+                                "tablet": "/images/portfolio/my_projects/calculator_3.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/calculator_3.jpg",
+                                "mobile": "/images/portfolio/my_projects/calculator_3.jpg"
                             },
                             {
-                                "desktop": "/images/detail/desktop/image-fylo-preview-2@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-fylo-preview-2@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-fylo-preview-2@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-fylo-preview-2.jpg"
+                                "desktop": "/images/portfolio/my_projects/calculator_2.jpg",
+                                "tablet": "/images/portfolio/my_projects/calculator_2.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/calculator_2.jpg",
+                                "mobile": "/images/portfolio/my_projects/calculator_2.jpg"
                             }
                         ]
                     },
-                    "intro": {
-                        "name": "Fylo",
+                    "intro": 
+                    {
+                        "name": "Calculator",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS / JavaScript",
+                        "button": "VISIT WEBSITE",
+                        "website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
+                    },
+                    "projectDescription": 
+                    {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "nft-card",
+                        "nextName": "NFT Card",
+                        "previous": "studio-51",
+                        "previousName": "Studio 51"
+                    }
+                },
+
+
+
+
+                "nft-card": 
+                {
+                    "images": 
+                    {
+                        "hero": 
+                        {
+                            "desktop": "/images/portfolio/my_projects/card_1.jpg",
+                            "tablet": "/images/portfolio/my_projects/card_1.jpg",
+                            "mobile2x": "/images/portfolio/my_projects/card_1.jpg",
+                            "mobile": "/images/portfolio/my_projects/card_1.jpg"
+                        },
+                        "preview": 
+                        [
+                            {
+                                "desktop": "/images/portfolio/my_projects/card_2.jpg",
+                                "tablet": "/images/portfolio/my_projects/card_2.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/card_2.jpg",
+                                "mobile": "/images/portfolio/my_projects/card_2.jpg"
+                            },
+                            {
+                                "desktop": "/images/portfolio/my_projects/card_3.jpg",
+                                "tablet": "/images/portfolio/my_projects/card_3.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/card_3.jpg",
+                                "mobile": "/images/portfolio/my_projects/card_3.jpg"
+                            }
+                        ]
+                    },
+                    "intro": 
+                    {
+                        "name": "NFT Card",
                         "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                         "implementations": "Interaction Design / Front End Development",
                         "tecnologies": "HTML / CSS",
-                        "button": "VISIT WEBSITE"
+                        "button": "VISIT WEBSITE",
+                        "website": "https://eze-alarcon.github.io/ntf_card/"
                     },
-                    "projectDescription": {
+                    "projectDescription": 
+                    {
                         "title": "Project Background",
                         "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
                         "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "ecommerce",
+                        "nextName": "eCommerce App",
+                        "previous": "calculator",
+                        "previousName": "Calculator"
                     }
                 },
-                "insure": {
-                    "images": {
+
+
+
+                "ecommerce": 
+                {
+                    "images": 
+                    {
                         "hero": 
                         {
-                            "desktop": "/images/detail/desktop/image-insure-hero@2x.jpg",
-                            "tablet": "/images/detail/tablet/image-insure-hero@2x.jpg",
-                            "mobile2x": "/images/detail/mobile/image-insure-hero@2x.jpg",
-                            "mobile": "/images/detail/mobile/image-insure-hero.jpg"
+                            "desktop": "/images/portfolio/my_projects/eCommerce_1.png",
+                            "tablet": "/images/portfolio/my_projects/eCommerce_1.png",
+                            "mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
+                            "mobile": "/images/portfolio/my_projects/eCommerce_1.png"
                         },
-                        "preview": [
+                        "preview": 
+                        [
                             {
-                                "desktop": "/images/detail/desktop/image-insure-preview-1@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-insure-preview-1@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-insure-preview-1@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-insure-preview-1.jpg"
+                                "desktop": "/images/portfolio/my_projects/eCommerce_2.png",
+                                "tablet": "/images/portfolio/my_projects/eCommerce_2.png",
+                                "mobile2x": "/images/portfolio/my_projects/eCommerce_2.png",
+                                "mobile": "/images/portfolio/my_projects/eCommerce_2.png"
                             },
                             {
-                                "desktop": "/images/detail/desktop/image-insure-preview-2@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-insure-preview-2@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-insure-preview-2@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-insure-preview-2.jpg"
+                                "desktop": "/images/portfolio/my_projects/eCommerce_3.png",
+                                "tablet": "/images/portfolio/my_projects/eCommerce_3.png",
+                                "mobile2x": "/images/portfolio/my_projects/eCommerce_3.png",
+                                "mobile": "/images/portfolio/my_projects/eCommerce_3.png"
                             }
                         ]
                     },
-                    "intro": {
-                        "name": "Insure",
-                        "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
+                    "intro": 
+                    {
+                        "name": "eCommerce App",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                         "implementations": "Interaction Design / Front End Development",
-                        "tecnologies": "HTML / CSS / JS",
-                        "button": "VISIT WEBSITE"
+                        "tecnologies": "HTML / CSS / JavaScript / React.JS",
+                        "button": "VISIT WEBSITE",
+                        "website": "https://ecommerce-alarcon.vercel.app/"
                     },
-                    "projectDescription": {
+                    "projectDescription": 
+                    {
                         "title": "Project Background",
                         "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
                         "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "fylo",
+                        "nextName": "Fylo",
+                        "previous": "nft-card",
+                        "previousName": "NFT Card"
                     }
                 },
-                "manage": {
-                    "images": {
+
+
+
+                "fylo": 
+                {
+                    "images": 
+                    {
                         "hero": 
                         {
-                            "desktop": "/images/detail/desktop/image-manage-hero@2x.jpg",
-                            "tablet": "/images/detail/tablet/image-manage-hero@2x.jpg",
-                            "mobile2x": "/images/detail/mobile/image-manage-hero@2x.jpg",
-                            "mobile": "/images/detail/mobile/image-manage-hero.jpg"
+                            "desktop": "/images/portfolio/my_projects/fylo_2.jpg",
+                            "tablet": "/images/portfolio/my_projects/fylo_2.jpg",
+                            "mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
+                            "mobile": "/images/portfolio/my_projects/fylo_2.jpg"
                         },
-                        "preview": [
+                        "preview": 
+                        [
                             {
-                                "desktop": "/images/detail/desktop/image-manage-preview-1@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-manage-preview-1@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-manage-preview-1@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-manage-preview-1.jpg"
+                                "desktop": "/images/portfolio/my_projects/fylo_1.jpg",
+                                "tablet": "/images/portfolio/my_projects/fylo_1.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/fylo_1.jpg",
+                                "mobile": "/images/portfolio/my_projects/fylo_1.jpg"
                             },
                             {
-                                "desktop": "/images/detail/desktop/image-manage-preview-2@2x.jpg",
-                                "tablet": "/images/detail/tablet/image-manage-preview-2@2x.jpg",
-                                "mobile2x": "/images/detail/mobile/image-manage-preview-2@2x.jpg",
-                                "mobile": "/images/detail/mobile/image-manage-preview-2.jpg"
+                                "desktop": "/images/portfolio/my_projects/fylo_3.jpg",
+                                "tablet": "/images/portfolio/my_projects/fylo_3.jpg",
+                                "mobile2x": "/images/portfolio/my_projects/fylo_3.jpg",
+                                "mobile": "/images/portfolio/my_projects/fylo_3.jpg"
                             }
                         ]
                     },
-                    "intro": {
-                        "name": "Manage",
-                        "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                    "intro": 
+                    {
+                        "name": "Fylo",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
                         "implementations": "Interaction Design / Front End Development",
-                        "tecnologies": "HTML / CSS / JS",
-                        "button": "VISIT WEBSITE"
+                        "tecnologies": "HTML / CSS / JavaScript",
+                        "button": "VISIT WEBSITE",
+                        "website": "https://eze-alarcon.github.io/fylo/"
                     },
-                    "projectDescription": {
+                    "projectDescription": 
+                    {
                         "title": "Project Background",
                         "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
                         "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "movie-app",
+                        "nextName": "Movie App",
+                        "previous": "ecommerce",
+                        "previousName": "eCommerce App"
+                    }
+                },
+                
+
+
+                "movie-app": 
+                {
+                    "images": 
+                    {
+                        "hero": 
+                        {
+                            "desktop": "/images/portfolio/my_projects/movieApp_1.png",
+                            "tablet": "/images/portfolio/my_projects/movieApp_1.png",
+                            "mobile2x": "/images/portfolio/my_projects/movieApp_1.png",
+                            "mobile": "/images/portfolio/my_projects/movieApp_1.png"
+                        },
+                        "preview": 
+                        [
+                            {
+                                "desktop": "/images/portfolio/my_projects/movieApp_2.png",
+                                "tablet": "/images/portfolio/my_projects/movieApp_2.png",
+                                "mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
+                                "mobile": "/images/portfolio/my_projects/movieApp_2.png"
+                            },
+                            {
+                                "desktop": "/images/portfolio/my_projects/movieApp_3.png",
+                                "tablet": "/images/portfolio/my_projects/movieApp_3.png",
+                                "mobile2x": "/images/portfolio/my_projects/movieApp_3.png",
+                                "mobile": "/images/portfolio/my_projects/movieApp_3.png"
+                            }
+                        ]
+                    },
+                    "intro": 
+                    {
+                        "name": "Movie App",
+                        "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                        "implementations": "Interaction Design / Front End Development",
+                        "tecnologies": "HTML / CSS / Boostrap / JavaScript",
+                        "button": "VISIT WEBSITE",
+                        "website": "https://movie-app-eze-alarcon.000webhostapp.com/"
+                    },
+                    "projectDescription": 
+                    {
+                        "title": "Project Background",
+                        "description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
+                        "subtitle": "Static Previews"
+                    },
+                    "footerProjects": 
+                    {
+                        "next": "studio-51",
+                        "nextName": "Studio 51",
+                        "previous": "fylo",
+                        "previousName": "Fylo"
                     }
                 }
             }

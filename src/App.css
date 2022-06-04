@@ -468,7 +468,8 @@ header {
         text-align: center;
     }
     
-    .navbar ul li a {
+    .navbar ul li a,
+    .navbar ul li span {
         color: #FAFAFA;
         padding: 1rem 1rem;
     }
