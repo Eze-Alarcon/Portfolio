@@ -46,7 +46,7 @@
                 "projectNumber": 0,
                 "id": "project-studio51",
                 "name": "Studio 51",
-                "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                "description": "This project required me to build a fully responsive website to the designs provided. We used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, like the 'the companies that trust us' slider.",
                 "button": "VIEW PROJECT",
                 "link": "studio-51",
                 "images": {
@@ -60,7 +60,7 @@
                 "projectNumber": 1,
                 "id": "project-calculator",
                 "name": "Calculator",
-                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+                "description": "This project required building something as common as a calculator, to do so I implemented HTML and CSS for the visuals, and then used JavaScript to add the required logic.",
                 "button": "VIEW PROJECT",
                 "link": "calculator",
                 "images": {
@@ -74,7 +74,7 @@
                 "projectNumber": 2,
                 "id": "project-nft_card",
                 "name": "NFT Card",
-                "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+                "description": "This project required me to build a fully responsive card to the designs provided. I used HTML5, along with CSS flexbox.",
                 "button": "VIEW PROJECT",
                 "link": "nft-card",
                 "images": {
@@ -102,7 +102,7 @@
                 "projectNumber": 4,
                 "id": "project-fylo",
                 "name": "Fylo",
-                "description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+                "description": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
                 "button": "VIEW PROJECT",
                 "link": "fylo",
                 "images": {

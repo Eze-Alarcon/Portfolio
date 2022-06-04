@@ -52,7 +52,7 @@ const ProjectDetail = () => {
 
                 </div>
 
-                <a href={projectIntro.website}>
+                <a href={projectIntro.website} target="blank">
                     <button type="button" className="secondaryButton">
                         {projectIntro.button}
                     </button>

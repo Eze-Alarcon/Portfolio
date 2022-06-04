@@ -10,9 +10,11 @@ const Footer = () => {
     return (
     <footer>
 		<div className="footer-container">
-			<i className="IF-logo">
-				<svg xmlns="http://www.w3.org/2000/svg" width="61" height="32"><path fill="#FAFAFA" fillRule="evenodd" d="M60.082 5.878L44.408 32 28.735 5.878h31.347zM15.673 0l15.674 26.122H0L15.673 0z"/></svg>
-			</i>
+			<Link to="/">
+				<i className="IF-logo">
+					<svg xmlns="http://www.w3.org/2000/svg" width="61" height="32"><path fill="#FAFAFA" fillRule="evenodd" d="M60.082 5.878L44.408 32 28.735 5.878h31.347zM15.673 0l15.674 26.122H0L15.673 0z"/></svg>
+				</i>
+			</Link>
 			<Link to="/" className="F-link">{footerData.link1}</Link>
 			<Link to="/index" className="F-link">{footerData.link2}</Link>
 			<Link to="/contact" className="F-link">{footerData.link3}</Link>

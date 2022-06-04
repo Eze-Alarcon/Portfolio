@@ -261,6 +261,10 @@ header {
     margin:  0;
 }
 
+.header .header-logo:hover svg path {
+    fill: var(--PC-cyan);
+}
+
 
 .navbar {
     margin: 1.5rem 3.2rem 0 0;
@@ -728,6 +732,11 @@ footer .footer-container {
     justify-content: flex-start;
     align-items: center;
     gap: 4rem;
+}
+
+
+.footer-container .IF-logo:hover svg path {
+    fill: var(--PC-cyan);
 }
 
 
