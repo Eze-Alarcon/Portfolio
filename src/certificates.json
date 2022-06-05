@@ -1,0 +1,45 @@
+{
+	"certificates": [
+		{
+			"id": "coder-js",
+			"image": "/images/portfolio/certificates/coderhouse_js.png"
+		},
+		{
+			"id": "coder-react",
+			"image": "/images/portfolio/certificates/coderhouse_react.png"
+		},
+		{
+			"id": "platzi-async",
+			"image": "/images/portfolio/certificates/diploma-asincronismo-js-2019.png"
+		},
+		{
+			"id": "platzi-ecma",
+			"image": "/images/portfolio/certificates/diploma-ecmascript-6.png"
+		},
+		{
+			"id": "platzi-dom",
+			"image": "/images/portfolio/certificates/diploma-dom.png"
+		},
+
+		{
+			"id": "platzi-flex-grid",
+			"image": "/images/portfolio/certificates/diploma-flexbox-css-grid.png"
+		},
+		{
+			"id": "platzi-github",
+			"image": "/images/portfolio/certificates/diploma-git-github.png"
+		},
+		{
+			"id": "platzi-js-dom",
+			"image": "/images/portfolio/certificates/diploma-javascript-navegador.png"
+		},
+		{
+			"id": "platzi-mobile",
+			"image": "/images/portfolio/certificates/diploma-mobile-first.png"
+		},
+		{
+			"id": "platzi-intro-react",
+			"image": "/images/portfolio/certificates/diploma-react.png"
+		}
+	]
+}

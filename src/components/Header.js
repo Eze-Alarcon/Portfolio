@@ -44,16 +44,17 @@ const Header = () => {
                     </div>
                 </Link>
                 <div className="H-burgerContainer">
-                    <a href=".#" className={burgerMenu} onClick={openModal}>
+                    <span className={burgerMenu} onClick={openModal}>
                         <span className="bar"></span>
-                    </a>
+                    </span>
                 </div>
                 <nav className={navbar}>
                     <ul role="list">
                         <li><Link to="/">{headerData.link1}</Link></li>
                         <li><Link to="/index">{headerData.link2}</Link></li>
                         <li><Link to="/contact">{headerData.link3}</Link></li>
-                        <li><span onClick={changeLang}>{headerData.link4}</span></li>
+                        <li><Link to="/certificates">{headerData.link4}</Link></li>
+                        <li><span onClick={changeLang}>{headerData.link5}</span></li>
                     </ul>
                 </nav>
             </div>

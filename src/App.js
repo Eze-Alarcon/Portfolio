@@ -10,12 +10,7 @@ import Footer from './components/Footer'
 import Home from './components/Home';
 import PortfolioIndex from './components/PortfolioIndex';
 import Contact from './components/Contact'
-
-// Projects
-// import Manage from './components/projects/Manage';
-// import Bookmark from './components/projects/Bookmark';
-// import Fylo from './components/projects/Fylo';
-// import Insure from './components/projects/Insure';
+import Certificates from './components/Certificates';
 
 // Content call
 import Language from './components/LanguageContext'
@@ -33,12 +28,8 @@ function App() {
 					<Route path="/" element={<Home/>} />
 					<Route path="/index" element={<PortfolioIndex/>} />
 					<Route path="/contact" element={<Contact/>} />
-
-						<Route path="/project/:idProject" element={<ProjectDetail/>} />
-						{/* <Route path="/project/manage" element={<Manage/>} />
-						<Route path="/project/bookmark" element={<Bookmark/>} />
-						<Route path="/project/fylo" element={<Fylo/>} />
-						<Route path="/project/insure" element={<Insure/>} /> */}
+					<Route path="/certificates" element={<Certificates/>} />
+					<Route path="/project/:idProject" element={<ProjectDetail/>} />
 				</Routes>
 			</ScrollToTop>
 			<Footer/>

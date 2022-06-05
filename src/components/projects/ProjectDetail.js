@@ -66,13 +66,13 @@ const ProjectDetail = () => {
 
             <div className="P-description">
 
-                <h2 className="subtitle">
+                {/* <h2 className="subtitle">
                     {projectData.title}
                 </h2>
 
                 <p className="text">
                     {projectData.description}
-                </p>
+                </p> */}
 
                 <h2 className="subtitle">
                     {projectData.subtitle}
