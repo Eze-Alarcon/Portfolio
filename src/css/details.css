@@ -89,10 +89,6 @@ section {
     margin: 4.8rem 0 4rem;
 }
 
-.P-description .text {
-    margin: 2.8rem 0 4rem;
-}
-
 .P-description .imageContainer {
     margin: 4rem 0 6.4rem;
 } 
@@ -128,10 +124,7 @@ section {
     }
 
 
-    .P-container .text {
-        grid-column: 2 / 3;
-        grid-row: 1 / 4;
-    }
+    
 }
 
 

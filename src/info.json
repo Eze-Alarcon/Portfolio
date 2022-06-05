@@ -19,19 +19,13 @@
 		"home": {
 			"images": {
 				"hero": {
-					"desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
-					"tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
-					"mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
-					"mobile": "/images/homepage/mobile/image-homepage-hero@2x.jpg"
+					"mobile": "/images/homepage/image-homepage-hero@2x.jpg"
 				},
 				"profile": {
-					"desktop": "/images/homepage/myself.jpg",
-					"tablet": "/images/homepage/myself.jpg",
-					"mobile2x": "/images/homepage/myself.jpg",
-					"mobile": "/images/homepage/myself.jpg"
+					"mobile": "/images/homepage/myself_1.jpg"
 				}
 			},
-			"title": "Hey, I'm Ezequiel and I love building beautiful websites",
+			"title": "Hey, I'm Ezequiel Alarcon and I love create websites",
 			"button1": "ABOUT ME",
 			"subtitle": "About Me",
 			"description": "I am an Argentinian Front-End Developer living in Madrid, Spain and I am looking for a new role in an exciting company. I have experience writing HTML as semantic as possible, using CSS practices and writing clean JavaScript. When I'm writing JavaScript code, I mainly use React, but I can adapt to any tool required. When I'm not coding, you'll find me learning some new technology, looking for new ways to improve the ones I know, but I also enjoy exploring new places. I consider myself a creative, open-minded and proactive person, who enjoys teamwork and is always up for new challenges.",
@@ -46,9 +40,6 @@
 				"button": "VIEW PROJECT",
 				"link": "studio-51",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/studio51_2.png",
-					"tablet": "/images/portfolio/my_projects/studio51_2.png",
-					"mobile2x": "/images/portfolio/my_projects/studio51_2.png",
 					"mobile": "/images/portfolio/my_projects/studio51_2.png"
 				}
 			},
@@ -60,9 +51,6 @@
 				"button": "VIEW PROJECT",
 				"link": "calculator",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/calculator_1.jpg",
-					"tablet": "/images/portfolio/my_projects/calculator_1.jpg",
-					"mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
 					"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
 				}
 			},
@@ -74,9 +62,6 @@
 				"button": "VIEW PROJECT",
 				"link": "ecommerce",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/eCommerce_1.png",
-					"tablet": "/images/portfolio/my_projects/eCommerce_1.png",
-					"mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
 					"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
 				}
 			},
@@ -84,13 +69,10 @@
 				"projectNumber": 3,
 				"id": "project-nft_card",
 				"name": "NFT Card",
-				"description": "This project required me to build a fully responsive card to the designs provided. I used HTML5, along with CSS flexbox.",
+				"description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
 				"button": "VIEW PROJECT",
 				"link": "nft-card",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/card_1.jpg",
-					"tablet": "/images/portfolio/my_projects/card_1.jpg",
-					"mobile2x": "/images/portfolio/my_projects/card_1.jpg",
 					"mobile": "/images/portfolio/my_projects/card_1.jpg"
 				}
 			},
@@ -102,9 +84,6 @@
 				"button": "VIEW PROJECT",
 				"link": "fylo",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/fylo_2.jpg",
-					"tablet": "/images/portfolio/my_projects/fylo_2.jpg",
-					"mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
 					"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
 				}
 			},
@@ -116,9 +95,6 @@
 				"description": "This page was developed in HTML, CSS, Boostrap, pure JavaScript and with the help of 2 API's: on the one hand 'The Movie Data Base' (TMDB) to get updated information about movies while I also implemented the API of 'Mercado Libre' (a very popular E-Commerce in Latin America) to make the payment process.",
 				"button": "VIEW PROJECT",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/movieApp_2.png",
-					"tablet": "/images/portfolio/my_projects/movieApp_2.png",
-					"mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
 					"mobile": "/images/portfolio/my_projects/movieApp_2.png"
 				}
 			}
@@ -145,22 +121,13 @@
 				"studio-51": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/studio51_1.png",
-							"tablet": "/images/portfolio/my_projects/studio51_1.png",
-							"mobile2x": "/images/portfolio/my_projects/studio51_1.png",
 							"mobile": "/images/portfolio/my_projects/studio51_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/studio51_2.png",
-								"tablet": "/images/portfolio/my_projects/studio51_2.png",
-								"mobile2x": "/images/portfolio/my_projects/studio51_2.png",
 								"mobile": "/images/portfolio/my_projects/studio51_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/studio51_3.png",
-								"tablet": "/images/portfolio/my_projects/studio51_3.png",
-								"mobile2x": "/images/portfolio/my_projects/studio51_3.png",
 								"mobile": "/images/portfolio/my_projects/studio51_3.png"
 							}
 						]
@@ -186,22 +153,13 @@
 				"calculator": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/calculator_1.jpg",
-							"tablet": "/images/portfolio/my_projects/calculator_1.jpg",
-							"mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
 							"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/calculator_3.jpg",
-								"tablet": "/images/portfolio/my_projects/calculator_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/calculator_3.jpg",
 								"mobile": "/images/portfolio/my_projects/calculator_3.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/calculator_2.jpg",
-								"tablet": "/images/portfolio/my_projects/calculator_2.jpg",
-								"mobile2x": "/images/portfolio/my_projects/calculator_2.jpg",
 								"mobile": "/images/portfolio/my_projects/calculator_2.jpg"
 							}
 						]
@@ -227,22 +185,13 @@
 				"ecommerce": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/eCommerce_1.png",
-							"tablet": "/images/portfolio/my_projects/eCommerce_1.png",
-							"mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
 							"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/eCommerce_2.png",
-								"tablet": "/images/portfolio/my_projects/eCommerce_2.png",
-								"mobile2x": "/images/portfolio/my_projects/eCommerce_2.png",
 								"mobile": "/images/portfolio/my_projects/eCommerce_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/eCommerce_3.png",
-								"tablet": "/images/portfolio/my_projects/eCommerce_3.png",
-								"mobile2x": "/images/portfolio/my_projects/eCommerce_3.png",
 								"mobile": "/images/portfolio/my_projects/eCommerce_3.png"
 							}
 						]
@@ -268,22 +217,13 @@
 				"nft-card": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/card_1.jpg",
-							"tablet": "/images/portfolio/my_projects/card_1.jpg",
-							"mobile2x": "/images/portfolio/my_projects/card_1.jpg",
 							"mobile": "/images/portfolio/my_projects/card_1.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/card_2.jpg",
-								"tablet": "/images/portfolio/my_projects/card_2.jpg",
-								"mobile2x": "/images/portfolio/my_projects/card_2.jpg",
 								"mobile": "/images/portfolio/my_projects/card_2.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/card_3.jpg",
-								"tablet": "/images/portfolio/my_projects/card_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/card_3.jpg",
 								"mobile": "/images/portfolio/my_projects/card_3.jpg"
 							}
 						]
@@ -301,7 +241,7 @@
 					},
 					"footerProjects": {
 						"next": "ecommerce",
-						"nextName": "eCommerce App",
+						"nextName": "E-Commerce App",
 						"previous": "calculator",
 						"previousName": "Calculator"
 					}
@@ -309,22 +249,13 @@
 				"fylo": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/fylo_2.jpg",
-							"tablet": "/images/portfolio/my_projects/fylo_2.jpg",
-							"mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
 							"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/fylo_1.jpg",
-								"tablet": "/images/portfolio/my_projects/fylo_1.jpg",
-								"mobile2x": "/images/portfolio/my_projects/fylo_1.jpg",
 								"mobile": "/images/portfolio/my_projects/fylo_1.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/fylo_3.jpg",
-								"tablet": "/images/portfolio/my_projects/fylo_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/fylo_3.jpg",
 								"mobile": "/images/portfolio/my_projects/fylo_3.jpg"
 							}
 						]
@@ -344,29 +275,20 @@
 						"next": "movie-app",
 						"nextName": "Movie App",
 						"previous": "ecommerce",
-						"previousName": "eCommerce App"
+						"previousName": "E-Commerce App"
 					}
 				},
 
 				"movie-app": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/movieApp_1.png",
-							"tablet": "/images/portfolio/my_projects/movieApp_1.png",
-							"mobile2x": "/images/portfolio/my_projects/movieApp_1.png",
 							"mobile": "/images/portfolio/my_projects/movieApp_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/movieApp_2.png",
-								"tablet": "/images/portfolio/my_projects/movieApp_2.png",
-								"mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
 								"mobile": "/images/portfolio/my_projects/movieApp_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/movieApp_3.png",
-								"tablet": "/images/portfolio/my_projects/movieApp_3.png",
-								"mobile2x": "/images/portfolio/my_projects/movieApp_3.png",
 								"mobile": "/images/portfolio/my_projects/movieApp_3.png"
 							}
 						]
@@ -413,19 +335,13 @@
 		"home": {
 			"images": {
 				"hero": {
-					"desktop": "/images/homepage/desktop/image-homepage-hero@2x.jpg",
-					"tablet": "/images/homepage/tablet/image-homepage-hero@2x.jpg",
-					"mobile2x": "/images/homepage/mobile/image-homepage-hero@2x.jpg",
-					"mobile": "/images/homepage/mobile/image-homepage-hero@2x.jpg"
+					"mobile": "/images/homepage/image-homepage-hero@2x.jpg"
 				},
 				"profile": {
-					"desktop": "/images/homepage/desktop/image-homepage-profile@2x.jpg",
-					"tablet": "/images/homepage/tablet/image-homepage-profile@2x.jpg",
-					"mobile2x": "/images/homepage/mobile/image-homepage-profile@2x.jpg",
-					"mobile": "/images/homepage/mobile/image-homepage-profile@2x.jpg"
+					"mobile": "/images/homepage/myself_1.jpg"
 				}
 			},
-			"title": "Hola, soy Ezequiel Alarcon y me encanta crear paginas web",
+			"title": "Hola, soy Ezequiel Alarcon y me encanta crear páginas web",
 			"button1": "SOBRE MI",
 			"subtitle": "Sobre Mi",
 			"description": "Soy un Desarrollador Front-End argentino que vive en Madrid, España y estoy buscando un nuevo rol en una compañía emocionante. Tengo experiencia escribiendo en HTML lo más semántico posible, usando prácticas de CSS y escribiendo JavaScript limpio. Cuando estoy escribiendo código JavaScript, utilizo principalmente React, pero puedo adaptarme a cualquier herramienta que se requiera. Cuando no estoy codificando, me encontrarás aprendiendo alguna nueva tecnología, buscando nuevas formas de mejorar las que conozco, pero también disfruto explorando nuevos lugares. Me considero una persona creativa, de mente abierta y proactiva, que disfruta del trabajo en equipo y que siempre está dispuesta a afrontar nuevos retos.",
@@ -440,9 +356,6 @@
 				"button": "VER PROYECTO",
 				"link": "studio-51",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/studio51_2.png",
-					"tablet": "/images/portfolio/my_projects/studio51_2.png",
-					"mobile2x": "/images/portfolio/my_projects/studio51_2.png",
 					"mobile": "/images/portfolio/my_projects/studio51_2.png"
 				}
 			},
@@ -454,9 +367,6 @@
 				"button": "VER PROYECTO",
 				"link": "calculator",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/calculator_1.jpg",
-					"tablet": "/images/portfolio/my_projects/calculator_1.jpg",
-					"mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
 					"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
 				}
 			},
@@ -468,9 +378,6 @@
 				"button": "VER PROYECTO",
 				"link": "ecommerce",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/eCommerce_1.png",
-					"tablet": "/images/portfolio/my_projects/eCommerce_1.png",
-					"mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
 					"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
 				}
 			},
@@ -482,9 +389,6 @@
 				"button": "VER PROYECTO",
 				"link": "nft-card",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/card_1.jpg",
-					"tablet": "/images/portfolio/my_projects/card_1.jpg",
-					"mobile2x": "/images/portfolio/my_projects/card_1.jpg",
 					"mobile": "/images/portfolio/my_projects/card_1.jpg"
 				}
 			},
@@ -496,9 +400,6 @@
 				"button": "VER PROYECTO",
 				"link": "fylo",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/fylo_2.jpg",
-					"tablet": "/images/portfolio/my_projects/fylo_2.jpg",
-					"mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
 					"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
 				}
 			},
@@ -507,12 +408,9 @@
 				"id": "project-movieApp",
 				"name": "Movie App",
 				"link": "movie-app",
-				"description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+				"description": "Esta página fue desarrollada en HTML, CSS, Boostrap, JavaScript puro y con la ayuda de 2 API's: por un lado 'The Movie Data Base' (TMDB) para obtener información actualizada sobre las películas mientras que también implemente la API de 'Mercado Libre' (una E-Commerce muy popular en Latinoamérica) para realizar el proceso de pago.",
 				"button": "VER PROYECTO",
 				"images": {
-					"desktop": "/images/portfolio/my_projects/movieApp_2.png",
-					"tablet": "/images/portfolio/my_projects/movieApp_2.png",
-					"mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
 					"mobile": "/images/portfolio/my_projects/movieApp_2.png"
 				}
 			}
@@ -539,22 +437,13 @@
 				"studio-51": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/studio51_1.png",
-							"tablet": "/images/portfolio/my_projects/studio51_1.png",
-							"mobile2x": "/images/portfolio/my_projects/studio51_1.png",
 							"mobile": "/images/portfolio/my_projects/studio51_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/studio51_2.png",
-								"tablet": "/images/portfolio/my_projects/studio51_2.png",
-								"mobile2x": "/images/portfolio/my_projects/studio51_2.png",
 								"mobile": "/images/portfolio/my_projects/studio51_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/studio51_3.png",
-								"tablet": "/images/portfolio/my_projects/studio51_3.png",
-								"mobile2x": "/images/portfolio/my_projects/studio51_3.png",
 								"mobile": "/images/portfolio/my_projects/studio51_3.png"
 							}
 						]
@@ -568,7 +457,7 @@
 						"website": "https://studio-51.000webhostapp.com/index.html"
 					},
 					"projectDescription": {
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "calculator",
@@ -581,22 +470,13 @@
 				"calculator": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/calculator_1.jpg",
-							"tablet": "/images/portfolio/my_projects/calculator_1.jpg",
-							"mobile2x": "/images/portfolio/my_projects/calculator_1.jpg",
 							"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/calculator_3.jpg",
-								"tablet": "/images/portfolio/my_projects/calculator_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/calculator_3.jpg",
 								"mobile": "/images/portfolio/my_projects/calculator_3.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/calculator_2.jpg",
-								"tablet": "/images/portfolio/my_projects/calculator_2.jpg",
-								"mobile2x": "/images/portfolio/my_projects/calculator_2.jpg",
 								"mobile": "/images/portfolio/my_projects/calculator_2.jpg"
 							}
 						]
@@ -610,7 +490,7 @@
 						"website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
 					},
 					"projectDescription": {
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "nft-card",
@@ -623,22 +503,13 @@
 				"ecommerce": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/eCommerce_1.png",
-							"tablet": "/images/portfolio/my_projects/eCommerce_1.png",
-							"mobile2x": "/images/portfolio/my_projects/eCommerce_1.png",
 							"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/eCommerce_2.png",
-								"tablet": "/images/portfolio/my_projects/eCommerce_2.png",
-								"mobile2x": "/images/portfolio/my_projects/eCommerce_2.png",
 								"mobile": "/images/portfolio/my_projects/eCommerce_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/eCommerce_3.png",
-								"tablet": "/images/portfolio/my_projects/eCommerce_3.png",
-								"mobile2x": "/images/portfolio/my_projects/eCommerce_3.png",
 								"mobile": "/images/portfolio/my_projects/eCommerce_3.png"
 							}
 						]
@@ -652,7 +523,7 @@
 						"website": "https://ecommerce-alarcon.vercel.app/"
 					},
 					"projectDescription": {
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "fylo",
@@ -665,22 +536,13 @@
 				"nft-card": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/card_1.jpg",
-							"tablet": "/images/portfolio/my_projects/card_1.jpg",
-							"mobile2x": "/images/portfolio/my_projects/card_1.jpg",
 							"mobile": "/images/portfolio/my_projects/card_1.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/card_2.jpg",
-								"tablet": "/images/portfolio/my_projects/card_2.jpg",
-								"mobile2x": "/images/portfolio/my_projects/card_2.jpg",
 								"mobile": "/images/portfolio/my_projects/card_2.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/card_3.jpg",
-								"tablet": "/images/portfolio/my_projects/card_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/card_3.jpg",
 								"mobile": "/images/portfolio/my_projects/card_3.jpg"
 							}
 						]
@@ -696,11 +558,11 @@
 					"projectDescription": {
 						"title": "Descripción del proyecto",
 						"description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "ecommerce",
-						"nextName": "eCommerce App",
+						"nextName": "E-Commerce App",
 						"previous": "calculator",
 						"previousName": "Calculadora"
 					}
@@ -709,22 +571,13 @@
 				"fylo": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/fylo_2.jpg",
-							"tablet": "/images/portfolio/my_projects/fylo_2.jpg",
-							"mobile2x": "/images/portfolio/my_projects/fylo_2.jpg",
 							"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/fylo_1.jpg",
-								"tablet": "/images/portfolio/my_projects/fylo_1.jpg",
-								"mobile2x": "/images/portfolio/my_projects/fylo_1.jpg",
 								"mobile": "/images/portfolio/my_projects/fylo_1.jpg"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/fylo_3.jpg",
-								"tablet": "/images/portfolio/my_projects/fylo_3.jpg",
-								"mobile2x": "/images/portfolio/my_projects/fylo_3.jpg",
 								"mobile": "/images/portfolio/my_projects/fylo_3.jpg"
 							}
 						]
@@ -738,49 +591,39 @@
 						"website": "https://eze-alarcon.github.io/fylo/"
 					},
 					"projectDescription": {
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "movie-app",
 						"nextName": "Movie App",
 						"previous": "ecommerce",
-						"previousName": "eCommerce App"
+						"previousName": "E-Commerce App"
 					}
 				},
 
 				"movie-app": {
 					"images": {
 						"hero": {
-							"desktop": "/images/portfolio/my_projects/movieApp_1.png",
-							"tablet": "/images/portfolio/my_projects/movieApp_1.png",
-							"mobile2x": "/images/portfolio/my_projects/movieApp_1.png",
 							"mobile": "/images/portfolio/my_projects/movieApp_1.png"
 						},
 						"preview": [
 							{
-								"desktop": "/images/portfolio/my_projects/movieApp_2.png",
-								"tablet": "/images/portfolio/my_projects/movieApp_2.png",
-								"mobile2x": "/images/portfolio/my_projects/movieApp_2.png",
 								"mobile": "/images/portfolio/my_projects/movieApp_2.png"
 							},
 							{
-								"desktop": "/images/portfolio/my_projects/movieApp_3.png",
-								"tablet": "/images/portfolio/my_projects/movieApp_3.png",
-								"mobile2x": "/images/portfolio/my_projects/movieApp_3.png",
 								"mobile": "/images/portfolio/my_projects/movieApp_3.png"
 							}
 						]
 					},
 					"intro": {
 						"name": "Movie App",
-						"description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-						"implementations": "Interaction Design / Front End Development",
+						"description": "Esta página fue desarrollada en HTML, CSS, Boostrap, JavaScript puro y con la ayuda de 2 API's: por un lado 'The Movie Data Base' (TMDB) para obtener información actualizada sobre las películas mientras que también implemente la API de 'Mercado Libre' (una E-Commerce muy popular en Latinoamérica) para realizar el proceso de pago.",
 						"tecnologies": "HTML / CSS / Boostrap / JavaScript",
 						"button": "VISITAR PÁGINA",
 						"website": "https://movie-app-eze-alarcon.000webhostapp.com/"
 					},
 					"projectDescription": {
-						"subtitle": "Static Previews"
+						"subtitle": "Vista Previa"
 					},
 					"footerProjects": {
 						"next": "studio-51",

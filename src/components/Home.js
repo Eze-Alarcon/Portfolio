@@ -21,9 +21,6 @@ const Home = () => {
 		<section className="I-intro">
 
 			<picture>
-					<source media="(min-width:880px)" srcSet={homeImages.hero.desktop} />
-					<source media="(min-width:730px)" srcSet={homeImages.hero.tablet} />
-					<source media="(min-width:500px)" srcSet={homeImages.hero.mobile2x} />
 					<img src={homeImages.hero.mobile}  alt="Decoration fotos"/>
 			</picture>
 
@@ -48,9 +45,6 @@ const Home = () => {
 
 		<section className="I-myInfo" id="aboutMe">
 			<picture>
-					<source media="(min-width:1280px)" srcSet={homeImages.profile.desktop} />
-					<source media="(min-width:730px)" srcSet={homeImages.profile.tablet} />
-					<source media="(min-width:500px)" srcSet={homeImages.profile.mobile2x} />
 					<img src={homeImages.profile.mobile}  alt="Foto of myself"/>
 			</picture>
 

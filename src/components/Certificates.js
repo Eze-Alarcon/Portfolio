@@ -13,9 +13,6 @@ const Certificates = () => {
 
                     return (
                         <picture key={item.id}>
-                            <source media="(min-width:880px)" srcSet={item.image} />
-                            <source media="(min-width:730px)" srcSet={item.image} />
-                            <source media="(min-width:500px)" srcSet={item.image} />
                             <img src={item.image} alt="My certificates"/>
                         </picture>
                     )

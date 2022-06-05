@@ -419,7 +419,7 @@ header {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
 
     .header {
         flex-direction: column;
@@ -477,11 +477,11 @@ header {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
     .header {
         min-height: 8rem;
         width: 100%;
-        max-width: calc(55rem + 3.2rem + 4rem);
+        max-width: calc(80rem + 3.2rem + 4rem);
         padding: 0 3.2rem;
         margin: 0 auto;
     }
@@ -499,11 +499,11 @@ header {
 
 
 
-@media (min-width: 730px) {
+/* @media (min-width: 730px) {
     .header {
         max-width: calc(80rem + 3.2rem + 4rem);
     }
-}
+} */
 
 @media (min-width: 1280px) {
     .header {

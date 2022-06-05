@@ -21,9 +21,6 @@ const ProjectDetail = () => {
 
         <section className="P-hero">
             <picture>
-                <source media="(min-width:880px)" srcSet={projectImages.hero.desktop} />
-                <source media="(min-width:730px)" srcSet={projectImages.hero.tablet} />
-                <source media="(min-width:500px)" srcSet={projectImages.hero.mobile2x} />
                 <img src={projectImages.hero.mobile} alt="Decoration"/>
             </picture>
         </section>
@@ -61,18 +58,7 @@ const ProjectDetail = () => {
             </div>
 
 
-
-
-
             <div className="P-description">
-
-                {/* <h2 className="subtitle">
-                    {projectData.title}
-                </h2>
-
-                <p className="text">
-                    {projectData.description}
-                </p> */}
 
                 <h2 className="subtitle">
                     {projectData.subtitle}
@@ -81,16 +67,10 @@ const ProjectDetail = () => {
                 <div className="imageContainer">
 
                     <picture>
-                        <source media="(min-width:880px)" srcSet={projectImages.preview[0].desktop}/>
-                        <source media="(min-width:730px)" srcSet={projectImages.preview[0].tablet}/>
-                        <source media="(min-width:500px)" srcSet={projectImages.preview[0].mobile2x}/>
                         <img src={projectImages.preview[0].mobile} alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <source media="(min-width:880px)" srcSet={projectImages.preview[1].desktop}/>
-                        <source media="(min-width:730px)" srcSet={projectImages.preview[1].tablet}/>
-                        <source media="(min-width:500px)" srcSet={projectImages.preview[1].mobile2x}/>
                         <img src={projectImages.preview[1].mobile} alt="Decoration"/>
                     </picture>
 

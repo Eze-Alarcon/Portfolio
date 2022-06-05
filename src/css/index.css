@@ -62,7 +62,7 @@ picture img {
         bottom: 0;
         max-width: 51rem;
         max-height: 28rem;
-        padding: 5.6rem 5.6rem 0 0;
+        padding: 5.6rem 9rem 0 0;
     }
 
     .I-intro .title {
@@ -99,17 +99,22 @@ picture img {
     max-width: 55ch;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 768px) {
     .I-myInfo {
         display: flex;
         flex-direction: row;
         gap: 5rem;
     }
 
-    .I-myInfo picture{
+    .I-myInfo picture {
         min-height: 100%;
         max-width: 29rem;
         min-width: 28rem;
+    }
+
+    .I-myInfo picture img {
+        height: 60%;
+        margin-top: calc(100% - 60%);
     }
 }
 
@@ -118,5 +123,9 @@ picture img {
         min-height: 100%;
         max-width: 61rem;
         min-width: 60rem;
+    }
+    .I-myInfo picture img {
+        height: 100%;
+        margin-top: 0;
     }
 }
