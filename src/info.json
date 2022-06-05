@@ -34,10 +34,10 @@
                 }
 
             },
-            "title": "Hey, I'm Alex Spencer and I love building beautiful websites",
+            "title": "Hey, I'm Ezequiel and I love building beautiful websites",
             "button1": "ABOUT ME",
             "subtitle": "About Me",
-            "description": "I am a junior front-end developer looking for a new role in an exciting company. I focus on writing HTML as semantic as possible, using CSS practices and writing clean JavaScript. When writing JavaScript code, I mainly use React, but I can adapt to any tool required. Right now I'm based in Madrid, Spain, but I come from a small town in Córdoba, Argentina. When I'm not coding, you'll find me learning some new technology, looking for ways to improve the ones I know, but I also enjoy exploring new places, either inside or outside the city. My future plans involve learning more about front-end development and learning about back-end so I can create more complex solutions when needed.",
+            "description": "I'm an Argentinian Front-End Developer living in Madrid, Spain looking for a new role in an exciting company. I have a background writing in HTML as semantic as possible, using CSS practices and writing clean JavaScript. When I'm writing JavaScript code, I mainly use React, but I can adapt to any tool required. When I'm not coding, you'll find me learning some new technology, looking for new ways to improve the ones I know, but I also enjoy exploring new places. I consider myself a creative, open minded and proactive person, who enjoys teamwork and who is always willing to face new challenges.",
             "button2": "GO TO PORTFOLIO"
         },
         "portolio": 
@@ -46,7 +46,7 @@
                 "projectNumber": 0,
                 "id": "project-studio51",
                 "name": "Studio 51",
-                "description": "This project required me to build a fully responsive website to the designs provided. We used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, like the 'the companies that trust us' slider.",
+                "description": "This project required me to build a fully responsive website to the designs provided. We used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, like the 'The companies that trust on us' slider.",
                 "button": "VIEW PROJECT",
                 "link": "studio-51",
                 "images": {
@@ -60,7 +60,7 @@
                 "projectNumber": 1,
                 "id": "project-calculator",
                 "name": "Calculator",
-                "description": "This project required building something as common as a calculator, to do so I implemented HTML and CSS for the visuals, and then used JavaScript to add the required logic.",
+                "description": "This project required me to create something as common as a calculator. To do it, I implemented HTML and CSS for the visuals and used JavaScript to add the required logic.",
                 "button": "VIEW PROJECT",
                 "link": "calculator",
                 "images": {
@@ -129,7 +129,7 @@
         ],
         "contact": {
             "title1": "Get in Touch",
-            "description": "I would love to know what you are working on and how I could help you. I am currently looking for a new position and am open to a wide range of opportunities. My preference would be to find a position at a company with remote work. But I am also willing to listen to opportunities that do not fit that description. I am a hardworking and positive person who will always approach every task with a sense of purpose and attention to detail. Please feel free to review my online profiles below and get in touch using the form.",
+            "description": "I would love to know what you are working on and how I could help you. I am currently looking for a new position and a I'm open to a wide range of opportunities. My preference would be to find a position at a company with remote work. But I am also willing to listen to opportunities that do not fit that description. I am a hardworking and positive person who will always approach every task with a sense of purpose and attention to detail. Please feel free to review my online profiles below and get in touch using the form.",
             "title2": "Contact Me",
             "form": {
                 "label1": "Name",

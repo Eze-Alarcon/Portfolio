@@ -165,12 +165,6 @@ section {
         overflow: hidden;
     }
 
-    /* .projects #project-fylo img {
-        min-height: 100%;
-        align-self: stretch !important;
-    } */
-
-
     .projects #project-calculator {
         background-color: #3b4664;
     }
@@ -237,13 +231,3 @@ section {
         overflow: hidden;
     }
 }
-
-
-
-/* 
-
-Cambiar font-size del header en resoluciones grandes
-
-cambiar font-family: 400 a font-weight: 400 en el footer
-
-*/
