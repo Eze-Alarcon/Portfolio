@@ -118,7 +118,7 @@ section {
     }
 
 
-    .P-container .secondaryButton {
+    .P-container .button-container {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }

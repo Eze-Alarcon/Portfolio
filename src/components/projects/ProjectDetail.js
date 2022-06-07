@@ -49,7 +49,7 @@ const ProjectDetail = () => {
 
                 </div>
 
-                <a href={projectIntro.website} target="blank">
+                <a href={projectIntro.website} target="blank" className="button-container">
                     <button type="button" className="secondaryButton">
                         {projectIntro.button}
                     </button>
