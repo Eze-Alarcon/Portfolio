@@ -10,6 +10,8 @@ const ProjectDetail = () => {
 
     const { idProject } = useParams()
 
+    console.log(data.projects.details)
+
     const projectImages = data.projects.details[idProject].images 
     const projectIntro = data.projects.details[idProject].intro
     const projectData = data.projects.details[idProject].projectDescription

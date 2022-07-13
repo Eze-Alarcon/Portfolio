@@ -56,6 +56,17 @@
 			},
 			{
 				"projectNumber": 2,
+				"id": "planetFacts",
+				"name": "Planet Facts",
+				"description": "This was a big project that consisted mainly of implementing React, JavaScript Framework. I built a fully responsive E-Commerce. A Google 'FireBase' database was used to manage stock information.",
+				"button": "VIEW PROJECT",
+				"link": "planetFacts",
+				"images": {
+					"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
+				}
+			},
+			{
+				"projectNumber": 3,
 				"id": "project-eCommerce",
 				"name": "E-Commerce App",
 				"description": "This was a big project that consisted mainly of implementing React, JavaScript Framework. I built a fully responsive E-Commerce. A Google 'FireBase' database was used to manage stock information.",
@@ -66,7 +77,7 @@
 				}
 			},
 			{
-				"projectNumber": 3,
+				"projectNumber": 4,
 				"id": "project-nft_card",
 				"name": "NFT Card",
 				"description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
@@ -77,7 +88,7 @@
 				}
 			},
 			{
-				"projectNumber": 4,
+				"projectNumber": 5,
 				"id": "project-fylo",
 				"name": "Fylo",
 				"description": "This was a small project consisting mainly of HTML and CSS. I built a fully responsive landing page. The only JavaScript this project required was to enable the change to the mobile navigation in the header.",
@@ -88,7 +99,7 @@
 				}
 			},
 			{
-				"projectNumber": 5,
+				"projectNumber": 6,
 				"id": "project-movieApp",
 				"name": "Movie App",
 				"link": "movie-app",
@@ -171,6 +182,38 @@
 						"tecnologies": "HTML / CSS / JavaScript",
 						"button": "VISIT WEBSITE",
 						"website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
+					},
+					"projectDescription": {
+						"subtitle": "Static Previews"
+					},
+					"footerProjects": {
+						"next": "nft-card",
+						"nextName": "NFT Card",
+						"previous": "studio-51",
+						"previousName": "Studio 51"
+					}
+				},
+				"planetFacts": {
+					"images": {
+						"hero": {
+							"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
+						},
+						"preview": [
+							{
+								"mobile": "/images/portfolio/my_projects/planetFacts_2.jpg"
+							},
+							{
+								"mobile": "/images/portfolio/my_projects/planetFacts_3.jpg"
+							}
+						]
+					},
+					"intro": {
+						"name": "Planet Facts",
+						"description": "This project was built in pure HTML, CSS and JavaScript. In this challenge I wanted to reflect the simplest thing as a calculator adapting it in a responsive way.",
+						"implementations": "Interaction Design / Front End Development",
+						"tecnologies": "HTML / CSS / JavaScript",
+						"button": "VISIT WEBSITE",
+						"website": "https://planet-facts-deploy-k9rcbtxor-eze-alarcon.vercel.app/"
 					},
 					"projectDescription": {
 						"subtitle": "Static Previews"
@@ -372,6 +415,17 @@
 			},
 			{
 				"projectNumber": 2,
+				"id": "planetFacts",
+				"name": "Planet Facts",
+				"description": "Este fue un gran proyecto que consistía principalmente en la implementación de React, Framework de JavaScript. Construí una E-Commerce totalmente responsiva. Se utilizó una base de datos de Google 'FireBase' para gestionar la información de stock.",
+				"button": "VER PROYECTO",
+				"link": "planetFacts",
+				"images": {
+					"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
+				}
+			},
+			{
+				"projectNumber": 3,
 				"id": "project-eCommerce",
 				"name": "E-Commerce App",
 				"description": "Este fue un gran proyecto que consistía principalmente en la implementación de React, Framework de JavaScript. Construí una E-Commerce totalmente responsiva. Se utilizó una base de datos de Google 'FireBase' para gestionar la información de stock.",
@@ -382,7 +436,7 @@
 				}
 			},
 			{
-				"projectNumber": 3,
+				"projectNumber": 4,
 				"id": "project-nft_card",
 				"name": "Tarjeta NFT",
 				"description": "Este proyecto requirió que construyera una tarjeta totalmente responsiva según los diseños proporcionados. Utilicé HTML5, junto con CSS flexbox.",
@@ -393,7 +447,7 @@
 				}
 			},
 			{
-				"projectNumber": 4,
+				"projectNumber": 5,
 				"id": "project-fylo",
 				"name": "Fylo",
 				"description": "Este fue un pequeño proyecto que consistía principalmente en HTML y CSS. Construí una página de aterrizaje totalmente receptiva. El único JavaScript que requirió este proyecto fue para habilitar el cambio de la navegación móvil de la cabecera.",
@@ -404,7 +458,7 @@
 				}
 			},
 			{
-				"projectNumber": 5,
+				"projectNumber": 6,
 				"id": "project-movieApp",
 				"name": "Movie App",
 				"link": "movie-app",
@@ -488,6 +542,38 @@
 						"tecnologies": "HTML / CSS / JavaScript",
 						"button": "VISITAR PÁGINA",
 						"website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
+					},
+					"projectDescription": {
+						"subtitle": "Vista Previa"
+					},
+					"footerProjects": {
+						"next": "nft-card",
+						"nextName": "Tarjeta NFT",
+						"previous": "studio-51",
+						"previousName": "Studio 51"
+					}
+				},
+				"planetFacts": {
+					"images": {
+						"hero": {
+							"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
+						},
+						"preview": [
+							{
+								"mobile": "/images/portfolio/my_projects/planetFacts_2.jpg"
+							},
+							{
+								"mobile": "/images/portfolio/my_projects/planetFacts_3.jpg"
+							}
+						]
+					},
+					"intro": {
+						"name": "Planet Facts",
+						"description": "Este proyecto fue construido en puro HTML, CSS y JavaScript. En este reto quise reflejar lo más sencillo como una calculadora adaptándola de forma responsiva.",
+						"implementations": "Interaction Design / Front End Development",
+						"tecnologies": "HTML / CSS / JavaScript",
+						"button": "VISITAR PÁGINA",
+						"website": "https://planet-facts-deploy-k9rcbtxor-eze-alarcon.vercel.app/"
 					},
 					"projectDescription": {
 						"subtitle": "Vista Previa"
