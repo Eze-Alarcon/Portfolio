@@ -1,58 +1,45 @@
 {
 	"en": {
-		"header": {
-			"link1": "HOME",
-			"link2": "PORTFOLIO",
-			"link3": "CONTACT ME",
-			"link4": "CERTIFICATES",
-			"link5": "ESPAÑOL"
+		"navigationLinks": {
+			"linkHome": "HOME",
+			"linkPortfolio": "PORTFOLIO",
+			"linkContact": "CONTACT ME",
+			"linkCertificates": "CERTIFICATES",
+			"linkLenguage": "ESPAÑOL"
 		},
-		"footer": {
-			"link1": "HOME",
-			"link2": "PORTFOLIO",
-			"link3": "CONTACT ME"
-		},
-		"genericEnd": {
+		"callToAction": {
 			"title": "Interested in doing a project together?",
 			"button": "CONTACT ME"
 		},
-		"home": {
+		"homePage": {
 			"images": {
-				"hero": {
-					"mobile": "/images/homepage/image-homepage-hero@2x.jpg"
-				},
-				"profile": {
-					"mobile": "/images/homepage/myself_1.jpg"
-				}
+				"hero": "/images/homepage/image-homepage-hero@2x.jpg",
+				"profile": "/images/homepage/myself_1.jpg"
 			},
 			"title": "Hey, I'm Ezequiel Alarcon and I love create websites",
-			"button1": "ABOUT ME",
+			"buttonAbout": "ABOUT ME",
 			"subtitle": "About Me",
 			"description": "I am an Argentinian Front-End Developer living in Madrid, Spain and I am looking for a new role in an exciting company. I have experience writing HTML as semantic as possible, using CSS practices and writing clean JavaScript. When I'm writing JavaScript code, I mainly use React, but I can adapt to any tool required. When I'm not coding, you'll find me learning some new technology, looking for new ways to improve the ones I know, but I also enjoy exploring new places. I consider myself a creative, open-minded and proactive person, who enjoys teamwork and is always up for new challenges.",
-			"button2": "GO TO PORTFOLIO"
+			"buttonPortfolio": "GO TO PORTFOLIO"
 		},
-		"portolio": [
+		"portolioPage": [
 			{
 				"projectNumber": 0,
-				"id": "project-studio51",
+				"id": "studio51",
 				"name": "Studio 51",
 				"description": "This project was developed as a team where we mainly used HTML and CSS. The design was designed to be used on mobile and desktop in a responsive way. We adopted a mobile-first approach and used modern CSS such as Flexbox and Grid for the design.",
 				"button": "VIEW PROJECT",
-				"link": "studio-51",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/studio51_2.png"
-				}
+				"link": "studio51",
+				"images": "/images/portfolio/my_projects/studio51_2.png"
 			},
 			{
 				"projectNumber": 1,
-				"id": "project-calculator",
+				"id": "calculator",
 				"name": "Calculator",
 				"description": "This project was built in pure HTML, CSS and JavaScript. In this challenge I wanted to reflect the simplest thing as a calculator adapting it in a responsive way.",
 				"button": "VIEW PROJECT",
 				"link": "calculator",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
-				}
+				"images": "/images/portfolio/my_projects/calculator_1.jpg"
 			},
 			{
 				"projectNumber": 2,
@@ -61,86 +48,69 @@
 				"description": "This was a big project that consisted mainly of implementing React, JavaScript Framework. I built a fully responsive E-Commerce. A Google 'FireBase' database was used to manage stock information.",
 				"button": "VIEW PROJECT",
 				"link": "planetFacts",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
-				}
+				"images": "/images/portfolio/my_projects/planetFacts_1.jpg"
 			},
 			{
 				"projectNumber": 3,
-				"id": "project-eCommerce",
+				"id": "eCommerce",
 				"name": "E-Commerce App",
 				"description": "This was a big project that consisted mainly of implementing React, JavaScript Framework. I built a fully responsive E-Commerce. A Google 'FireBase' database was used to manage stock information.",
 				"button": "VIEW PROJECT",
 				"link": "ecommerce",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
-				}
+				"images": "/images/portfolio/my_projects/eCommerce_1.png"
 			},
 			{
 				"projectNumber": 4,
-				"id": "project-nft_card",
+				"id": "nftCard",
 				"name": "NFT Card",
 				"description": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
 				"button": "VIEW PROJECT",
-				"link": "nft-card",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/card_1.jpg"
-				}
+				"link": "nftCard",
+				"images": "/images/portfolio/my_projects/card_1.jpg"
 			},
 			{
 				"projectNumber": 5,
-				"id": "project-fylo",
+				"id": "fylo",
 				"name": "Fylo",
 				"description": "This was a small project consisting mainly of HTML and CSS. I built a fully responsive landing page. The only JavaScript this project required was to enable the change to the mobile navigation in the header.",
 				"button": "VIEW PROJECT",
 				"link": "fylo",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
-				}
+				"images": "/images/portfolio/my_projects/fylo_2.jpg"
 			},
 			{
 				"projectNumber": 6,
-				"id": "project-movieApp",
+				"id": "movieApp",
 				"name": "Movie App",
-				"link": "movie-app",
+				"link": "movieApp",
 				"description": "This page was developed in HTML, CSS, Boostrap, pure JavaScript and with the help of 2 API's: on the one hand 'The Movie Data Base' (TMDB) to get updated information about movies while I also implemented the API of 'Mercado Libre' (a very popular E-Commerce in Latin America) to make the payment process.",
 				"button": "VIEW PROJECT",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/movieApp_2.png"
-				}
+				"images": "/images/portfolio/my_projects/movieApp_2.png"
 			}
 		],
-		"contact": {
-			"title1": "Get in Touch",
+		"contactPage": {
+			"mainTitle": "Get in Touch",
 			"description": "I would appreciate knowing what you are working on and how I could help you. I am currently looking for a new position and I am open to a wide range of opportunities. My preference is to find a position with a remote work company. But I am also willing to listen to opportunities that do not fit that description. \n I am a hardworking, positive person who will always approach every task with a sense of purpose and attention to detail. Please feel free to review my online profiles below and get in touch using the form.",
-			"title2": "Contact Me",
+			"secondaryTitle": "Contact Me",
 			"form": {
 				"label1": "Name",
 				"label2": "Email Address",
 				"label3": "Message",
-				"placeHolder3": "How can I help?",
+				"placeHolderMsg": "How can I help?",
 				"button": "SEND MESSAGE"
 			}
 		},
-		"projects": {
+		"projectsPage": {
 			"footer": {
 				"previous": "Previous Project",
 				"next": "Next Project"
 			},
-
-			"details": {
-				"studio-51": {
+			"projectDetails": {
+				"studio51": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/studio51_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/studio51_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/studio51_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/studio51_3.png"
-							}
+							"/images/portfolio/my_projects/studio51_2.png",
+							"/images/portfolio/my_projects/studio51_3.png"
 						]
 					},
 					"intro": {
@@ -151,28 +121,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://studio-51.000webhostapp.com/index.html"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "calculator",
-						"nextName": "Calculator",
-						"previous": "movie-app",
-						"previousName": "Movie App"
+						"previousId": "movieApp",
+						"previousName": "Movie App",
+						"nextId": "calculator",
+						"nextName": "Calculator"
 					}
 				},
 				"calculator": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/calculator_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/calculator_3.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/calculator_2.jpg"
-							}
+							"/images/portfolio/my_projects/calculator_3.jpg",
+							"/images/portfolio/my_projects/calculator_2.jpg"
 						]
 					},
 					"intro": {
@@ -183,28 +145,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "nft-card",
-						"nextName": "NFT Card",
-						"previous": "studio-51",
-						"previousName": "Studio 51"
+						"previousId": "studio51",
+						"previousName": "Studio 51",
+						"nextId": "planetFacts",
+						"nextName": "Planet Facts"
 					}
 				},
 				"planetFacts": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/planetFacts_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/planetFacts_2.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/planetFacts_3.jpg"
-							}
+							"/images/portfolio/my_projects/planetFacts_2.jpg",
+							"/images/portfolio/my_projects/planetFacts_3.jpg"
 						]
 					},
 					"intro": {
@@ -215,28 +169,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://planet-facts-deploy-k9rcbtxor-eze-alarcon.vercel.app/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "nft-card",
-						"nextName": "NFT Card",
-						"previous": "studio-51",
-						"previousName": "Studio 51"
+						"previousId": "calculator",
+						"previousName": "Calculator",
+						"nextId": "ecommerce",
+						"nextName": "E-Commerce App"
 					}
 				},
 				"ecommerce": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/eCommerce_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/eCommerce_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/eCommerce_3.png"
-							}
+							"/images/portfolio/my_projects/eCommerce_2.png",
+							"/images/portfolio/my_projects/eCommerce_3.png"
 						]
 					},
 					"intro": {
@@ -247,28 +193,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://ecommerce-alarcon.vercel.app/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "fylo",
-						"nextName": "Fylo",
-						"previous": "nft-card",
-						"previousName": "NFT Card"
+						"previousId": "planetFacts",
+						"previousName": "Planaet Facts",
+						"nextId": "nftCard",
+						"nextName": "NFT Card"
 					}
 				},
-				"nft-card": {
+				"nftCard": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/card_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/card_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/card_2.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/card_3.jpg"
-							}
+							"/images/portfolio/my_projects/card_2.jpg",
+							"/images/portfolio/my_projects/card_3.jpg"
 						]
 					},
 					"intro": {
@@ -279,28 +217,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://eze-alarcon.github.io/ntf_card/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "ecommerce",
-						"nextName": "E-Commerce App",
-						"previous": "calculator",
-						"previousName": "Calculator"
+						"previousId": "ecommerce",
+						"previousName": "E-Commerce App",
+						"nextId": "fylo",
+						"nextName": "Fylo"
 					}
 				},
 				"fylo": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/fylo_2.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/fylo_1.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/fylo_3.jpg"
-							}
+							"/images/portfolio/my_projects/fylo_1.jpg",
+							"/images/portfolio/my_projects/fylo_3.jpg"
 						]
 					},
 					"intro": {
@@ -311,29 +241,20 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://eze-alarcon.github.io/fylo/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "movie-app",
-						"nextName": "Movie App",
-						"previous": "ecommerce",
-						"previousName": "E-Commerce App"
+						"previousId": "nftCard",
+						"previousName": "NFT Card",
+						"nextId": "movieApp",
+						"nextName": "Movie App"
 					}
 				},
-
-				"movie-app": {
+				"movieApp": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/movieApp_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/movieApp_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/movieApp_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/movieApp_3.png"
-							}
+							"/images/portfolio/my_projects/movieApp_2.png",
+							"/images/portfolio/my_projects/movieApp_3.png"
 						]
 					},
 					"intro": {
@@ -344,74 +265,58 @@
 						"button": "VISIT WEBSITE",
 						"website": "https://movie-app-eze-alarcon.000webhostapp.com/"
 					},
-					"projectDescription": {
-						"subtitle": "Static Previews"
-					},
+					"subtitle": "Static Previews",
 					"footerProjects": {
-						"next": "studio-51",
-						"nextName": "Studio 51",
-						"previous": "fylo",
-						"previousName": "Fylo"
+						"previousId": "fylo",
+						"previousName": "Fylo",
+						"nextId": "studio51",
+						"nextName": "Studio 51"
 					}
 				}
 			}
 		}
 	},
-
 	"es": {
-		"header": {
-			"link1": "INICIO",
-			"link2": "PORTFOLIO",
-			"link3": "CONTÁCTAME",
-			"link4": "CERTIFICADOS",
-			"link5": "ENGLISH"
+		"navigationLinks": {
+			"linkHome": "INICIO",
+			"linkPortfolio": "PORTFOLIO",
+			"linkContact": "CONTÁCTAME",
+			"linkCertificates": "CERTIFICADOS",
+			"linkLenguage": "ENGLISH"
 		},
-		"footer": {
-			"link1": "INICIO",
-			"link2": "PORTFOLIO",
-			"link3": "CONTÁCTAME"
-		},
-		"genericEnd": {
+		"callToAction": {
 			"title": "¿Interesado en hacer proyectos?",
 			"button": "CONTACTAME"
 		},
-		"home": {
+		"homePage": {
 			"images": {
-				"hero": {
-					"mobile": "/images/homepage/image-homepage-hero@2x.jpg"
-				},
-				"profile": {
-					"mobile": "/images/homepage/myself_1.jpg"
-				}
+				"hero": "/images/homepage/image-homepage-hero@2x.jpg",
+				"profile": "/images/homepage/myself_1.jpg"
 			},
 			"title": "Hola, soy Ezequiel Alarcon y me encanta crear páginas web",
-			"button1": "SOBRE MI",
+			"buttonAbout": "SOBRE MI",
 			"subtitle": "Sobre Mi",
 			"description": "Soy un Desarrollador Front-End argentino que vive en Madrid, España y estoy buscando un nuevo rol en una compañía emocionante. Tengo experiencia escribiendo en HTML lo más semántico posible, usando prácticas de CSS y escribiendo JavaScript limpio. Cuando estoy escribiendo código JavaScript, utilizo principalmente React, pero puedo adaptarme a cualquier herramienta que se requiera. Cuando no estoy codificando, me encontrarás aprendiendo alguna nueva tecnología, buscando nuevas formas de mejorar las que conozco, pero también disfruto explorando nuevos lugares. Me considero una persona creativa, de mente abierta y proactiva, que disfruta del trabajo en equipo y que siempre está dispuesta a afrontar nuevos retos.",
-			"button2": "IR AL PORTFOLIO"
+			"buttonPortfolio": "IR AL PORTFOLIO"
 		},
-		"portolio": [
+		"portolioPage": [
 			{
 				"projectNumber": 0,
-				"id": "project-studio51",
+				"id": "studio51",
 				"name": "Studio 51",
 				"description": "Este proyecto fue desarrollado en equipo donde principalmente utilizamos HTML y CSS. El diseño fue pensado para emplearse en móviles y ordenadores de manera responsiva. Adoptamos un enfoque 'mobile-first' y utilizamos CSS moderno como Flexbox y Grid para el diseño.",
 				"button": "VER PROYECTO",
-				"link": "studio-51",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/studio51_2.png"
-				}
+				"link": "studio51",
+				"images": "/images/portfolio/my_projects/studio51_2.png"
 			},
 			{
 				"projectNumber": 1,
-				"id": "project-calculator",
+				"id": "calculator",
 				"name": "Calculadora",
 				"description": "Este proyecto fue construido en puro HTML, CSS y JavaScript. En este reto quise reflejar lo más sencillo como una calculadora adaptándola de forma responsiva.",
 				"button": "VER PROYECTO",
 				"link": "calculator",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
-				}
+				"images": "/images/portfolio/my_projects/calculator_1.jpg"
 			},
 			{
 				"projectNumber": 2,
@@ -420,86 +325,69 @@
 				"description": "Este fue un gran proyecto que consistía principalmente en la implementación de React, Framework de JavaScript. Construí una E-Commerce totalmente responsiva. Se utilizó una base de datos de Google 'FireBase' para gestionar la información de stock.",
 				"button": "VER PROYECTO",
 				"link": "planetFacts",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
-				}
+				"images": "/images/portfolio/my_projects/planetFacts_1.jpg"
 			},
 			{
 				"projectNumber": 3,
-				"id": "project-eCommerce",
+				"id": "eCommerce",
 				"name": "E-Commerce App",
 				"description": "Este fue un gran proyecto que consistía principalmente en la implementación de React, Framework de JavaScript. Construí una E-Commerce totalmente responsiva. Se utilizó una base de datos de Google 'FireBase' para gestionar la información de stock.",
 				"button": "VER PROYECTO",
 				"link": "ecommerce",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
-				}
+				"images": "/images/portfolio/my_projects/eCommerce_1.png"
 			},
 			{
 				"projectNumber": 4,
-				"id": "project-nft_card",
+				"id": "nftCard",
 				"name": "Tarjeta NFT",
 				"description": "Este proyecto requirió que construyera una tarjeta totalmente responsiva según los diseños proporcionados. Utilicé HTML5, junto con CSS flexbox.",
 				"button": "VER PROYECTO",
-				"link": "nft-card",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/card_1.jpg"
-				}
+				"link": "nftCard",
+				"images": "/images/portfolio/my_projects/card_1.jpg"
 			},
 			{
 				"projectNumber": 5,
-				"id": "project-fylo",
+				"id": "fylo",
 				"name": "Fylo",
 				"description": "Este fue un pequeño proyecto que consistía principalmente en HTML y CSS. Construí una página de aterrizaje totalmente receptiva. El único JavaScript que requirió este proyecto fue para habilitar el cambio de la navegación móvil de la cabecera.",
 				"button": "VER PROYECTO",
 				"link": "fylo",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
-				}
+				"images": "/images/portfolio/my_projects/fylo_2.jpg"
 			},
 			{
 				"projectNumber": 6,
-				"id": "project-movieApp",
+				"id": "movieApp",
 				"name": "Movie App",
-				"link": "movie-app",
+				"link": "movieApp",
 				"description": "Esta página fue desarrollada en HTML, CSS, Boostrap, JavaScript puro y con la ayuda de 2 API's: por un lado 'The Movie Data Base' (TMDB) para obtener información actualizada sobre las películas mientras que también implemente la API de 'Mercado Libre' (una E-Commerce muy popular en Latinoamérica) para realizar el proceso de pago.",
 				"button": "VER PROYECTO",
-				"images": {
-					"mobile": "/images/portfolio/my_projects/movieApp_2.png"
-				}
+				"images": "/images/portfolio/my_projects/movieApp_2.png"
 			}
 		],
-		"contact": {
-			"title1": "Ponerse en Contacto",
+		"contactPage": {
+			"mainTitle": "Ponerse en Contacto",
 			"description": "Me encantaría saber en qué estás trabajando y cómo podría ayudarte. Actualmente, estoy buscando un nuevo puesto y estoy abierto a una amplia gama de oportunidades. Mi preferencia es encontrar un puesto en una empresa de trabajo remoto. Pero también estoy dispuesto a escuchar oportunidades que no se ajusten a esa descripción. Soy una persona trabajadora y positiva que siempre abordará cada tarea con un sentido de propósito y atención al detalle. Por favor, siéntase libre de revisar mis perfiles en línea a continuación y póngase en contacto utilizando el formulario.",
-			"title2": "Contáctame",
+			"secondaryTitle": "Contáctame",
 			"form": {
 				"label1": "Nombre",
 				"label2": "Correo Electrónico",
 				"label3": "Mensaje",
-				"placeHolder3": "¿Cómo puedo ayudar?",
+				"placeHolderMsg": "¿Cómo puedo ayudar?",
 				"button": "ENVIAR MENSAJE"
 			}
 		},
-		"projects": {
+		"projectsPage": {
 			"footer": {
 				"previous": "Anterior",
 				"next": "Siguiente"
 			},
-
-			"details": {
-				"studio-51": {
+			"projectDetails": {
+				"studio51": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/studio51_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/studio51_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/studio51_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/studio51_3.png"
-							}
+							"/images/portfolio/my_projects/studio51_2.png",
+							"/images/portfolio/my_projects/studio51_3.png"
 						]
 					},
 					"intro": {
@@ -510,29 +398,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://studio-51.000webhostapp.com/index.html"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "calculator",
-						"nextName": "Calculadora",
-						"previous": "movie-app",
-						"previousName": "Movie App"
+						"previousId": "movieApp",
+						"previousName": "Movie App",
+						"nextId": "calculator",
+						"nextName": "Calculadora"
 					}
 				},
-
 				"calculator": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/calculator_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/calculator_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/calculator_3.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/calculator_2.jpg"
-							}
+							"/images/portfolio/my_projects/calculator_3.jpg",
+							"/images/portfolio/my_projects/calculator_2.jpg"
 						]
 					},
 					"intro": {
@@ -543,28 +422,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://eze-alarcon.github.io/Calculator-Frontend_Mentor/"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "nft-card",
-						"nextName": "Tarjeta NFT",
-						"previous": "studio-51",
-						"previousName": "Studio 51"
+						"previousId": "studio51",
+						"previousName": "Studio 51",
+						"nextId": "planetFacts",
+						"nextName": "Datos de Planetas"
 					}
 				},
 				"planetFacts": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/planetFacts_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/planetFacts_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/planetFacts_2.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/planetFacts_3.jpg"
-							}
+							"/images/portfolio/my_projects/planetFacts_2.jpg",
+							"/images/portfolio/my_projects/planetFacts_3.jpg"
 						]
 					},
 					"intro": {
@@ -575,29 +446,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://planet-facts-deploy-k9rcbtxor-eze-alarcon.vercel.app/"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "nft-card",
-						"nextName": "Tarjeta NFT",
-						"previous": "studio-51",
-						"previousName": "Studio 51"
+						"previousId": "calculator",
+						"previousName": "Calculadora",
+						"nextId": "ecommerce",
+						"nextName": "E-Commerce App"
 					}
 				},
-
 				"ecommerce": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/eCommerce_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/eCommerce_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/eCommerce_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/eCommerce_3.png"
-							}
+							"/images/portfolio/my_projects/eCommerce_2.png",
+							"/images/portfolio/my_projects/eCommerce_3.png"
 						]
 					},
 					"intro": {
@@ -608,29 +470,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://ecommerce-alarcon.vercel.app/"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "fylo",
-						"nextName": "Fylo",
-						"previous": "nft-card",
-						"previousName": "Tarjeta NFT"
+						"previousId": "planetFacts",
+						"previousName": "Datos de Planetas",
+						"nextId": "nftCard",
+						"nextName": "Tarjeta NFT"
 					}
 				},
-
-				"nft-card": {
+				"nftCard": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/card_1.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/card_1.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/card_2.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/card_3.jpg"
-							}
+							"/images/portfolio/my_projects/card_2.jpg",
+							"/images/portfolio/my_projects/card_3.jpg"
 						]
 					},
 					"intro": {
@@ -641,31 +494,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://eze-alarcon.github.io/ntf_card/"
 					},
-					"projectDescription": {
-						"title": "Descripción del proyecto",
-						"description": "This project was a front-end  challenge from Frontend Mentor. It's a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I've learned something new with each project, helping me to improve and adapt my style.",
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "ecommerce",
-						"nextName": "E-Commerce App",
-						"previous": "calculator",
-						"previousName": "Calculadora"
+						"previousId": "ecommerce",
+						"previousName": "E-Commerce App",
+						"nextId": "fylo",
+						"nextName": "Fylo"
 					}
 				},
-
 				"fylo": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/fylo_2.jpg"
-						},
+						"hero": "/images/portfolio/my_projects/fylo_2.jpg",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/fylo_1.jpg"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/fylo_3.jpg"
-							}
+							"/images/portfolio/my_projects/fylo_1.jpg",
+							"/images/portfolio/my_projects/fylo_3.jpg"
 						]
 					},
 					"intro": {
@@ -676,29 +518,20 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://eze-alarcon.github.io/fylo/"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "movie-app",
-						"nextName": "Movie App",
-						"previous": "ecommerce",
-						"previousName": "E-Commerce App"
+						"previousId": "nftCard",
+						"previousName": "Tarjeta NFT",
+						"nextId": "movieApp",
+						"nextName": "Movie App"
 					}
 				},
-
-				"movie-app": {
+				"movieApp": {
 					"images": {
-						"hero": {
-							"mobile": "/images/portfolio/my_projects/movieApp_1.png"
-						},
+						"hero": "/images/portfolio/my_projects/movieApp_1.png",
 						"preview": [
-							{
-								"mobile": "/images/portfolio/my_projects/movieApp_2.png"
-							},
-							{
-								"mobile": "/images/portfolio/my_projects/movieApp_3.png"
-							}
+							"/images/portfolio/my_projects/movieApp_2.png",
+							"/images/portfolio/my_projects/movieApp_3.png"
 						]
 					},
 					"intro": {
@@ -708,14 +541,12 @@
 						"button": "VISITAR PÁGINA",
 						"website": "https://movie-app-eze-alarcon.000webhostapp.com/"
 					},
-					"projectDescription": {
-						"subtitle": "Vista Previa"
-					},
+					"subtitle": "Vista Previa",
 					"footerProjects": {
-						"next": "studio-51",
-						"nextName": "Studio 51",
-						"previous": "fylo",
-						"previousName": "Fylo"
+						"previousId": "fylo",
+						"previousName": "Fylo",
+						"nextId": "studio51",
+						"nextName": "Studio 51"
 					}
 				}
 			}

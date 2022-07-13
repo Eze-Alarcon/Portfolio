@@ -8,10 +8,7 @@ const PortfolioItem = ({props}) => {
         <section className="projects">
 
 			<picture id={props.id}>
-				<source media="(min-width:880px)" srcSet={props.images.desktop} />
-				<source media="(min-width:730px)" srcSet={props.images.tablet} />
-				<source media="(min-width:500px)" srcSet={props.images.mobile2x} />
-				<img src={props.images.mobile} alt="Project fotos"/>
+				<img src={props.images} alt="Project fotos"/>
 			</picture>
 
 			<div className="container">

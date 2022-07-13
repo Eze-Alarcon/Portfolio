@@ -10,20 +10,19 @@ const ProjectDetail = () => {
 
     const { idProject } = useParams()
 
-    console.log(data.projects.details)
+    const shorcut = data.projectsPage.projectDetails
 
-    const projectImages = data.projects.details[idProject].images 
-    const projectIntro = data.projects.details[idProject].intro
-    const projectData = data.projects.details[idProject].projectDescription
-    const projectPage = data.projects.details[idProject].footerProjects
-    const projectFooter = data.projects.footer
-
+    const projectImages = shorcut[idProject].images 
+    const projectIntro = shorcut[idProject].intro
+    const projectPage = shorcut[idProject].footerProjects
+    const projectFooter = data.projectsPage.footer
+    
     return (
     <main>
 
         <section className="P-hero">
             <picture>
-                <img src={projectImages.hero.mobile} alt="Decoration"/>
+                <img src={projectImages.hero} alt="Decoration"/>
             </picture>
         </section>
 
@@ -63,17 +62,17 @@ const ProjectDetail = () => {
             <div className="P-description">
 
                 <h2 className="subtitle">
-                    {projectData.subtitle}
+                    {shorcut.subtitle}
                 </h2>
 
                 <div className="imageContainer">
 
                     <picture>
-                        <img src={projectImages.preview[0].mobile} alt="Decoration"/>
+                        <img src={projectImages.preview[0]} alt="Decoration"/>
                     </picture>
 
                     <picture>
-                        <img src={projectImages.preview[1].mobile} alt="Decoration"/>
+                        <img src={projectImages.preview[1]} alt="Decoration"/>
                     </picture>
 
                 </div>

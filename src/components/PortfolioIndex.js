@@ -6,7 +6,7 @@ import { LangContext } from "./LanguageContext";
 const PortfolioIndex = () => {
 	const { data } = useContext(LangContext)
 
-	const portfolioData = data.portolio
+	const portfolioData = data.portolioPage
 
     return (
         <main>

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
 const PageSwitch = ({page, text}) => {
-    const link1 = `/project/${page.previous}`
-    const link2 = `/project/${page.next}`
+    const link1 = `/project/${page.previousId}`
+    const link2 = `/project/${page.nextId}`
 
     return (
 

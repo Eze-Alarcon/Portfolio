@@ -165,32 +165,32 @@ section {
         overflow: hidden;
     }
 
-    .projects #project-calculator {
+    .projects #calculator {
         background-color: #3b4664;
     }
 
-    .projects #project-nft_card {
+    .projects #nftCard {
         background-color: #0d1a2d;
     }
 
-    .projects #project-eCommerce {
+    .projects #eCommerce {
         background-color: #FFFFFF;
     }
 
-    .projects #project-fylo {
+    .projects #fylo {
         background-color: #f0f0f0;
     }
 
-    .projects #project-movieApp {
+    .projects #movieApp {
         background-color: #242333;
     }
 
-    .projects #project-studio51 {
+    .projects #studio51 {
         background-color: #1f1f23;
     }
 
     .projects #planetFacts {
-        background-color: #f0f0f0;
+        background-color: hsl(240, 67%, 8%);
 
     }
     

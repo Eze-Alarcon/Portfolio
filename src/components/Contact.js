@@ -6,15 +6,15 @@ import { LangContext } from "./LanguageContext";
 const Contact = () => {
 	const { data, GITHUB, LINKEDIN } = useContext(LangContext)
 
-	const contactData = data.contact
-	const formData = data.contact.form
+	const contactData = data.contactPage
+	const formData = contactData.form
 
     return (
     <main>
 
 		<section className="C-description">
 			<h1 className="title">
-				{contactData.title1}
+				{contactData.mainTitle}
 			</h1>
 
 			<p className="text">
@@ -31,7 +31,7 @@ const Contact = () => {
 
 		<section className="C-form">
 
-			<h2 className="title">{contactData.title2}</h2>
+			<h2 className="title">{contactData.secondaryTitle}</h2>
 
 			<form method="POST" action="https://getform.io/f/790281fa-8990-4024-aab3-a840fc97980d" className="contact-form">
 
@@ -42,7 +42,7 @@ const Contact = () => {
 				<input className="textField" id="email" name="email" type="email" placeholder="email@example.com"/>
 
 				<label className="formLabel" htmlFor="message">{formData.label3}</label>
-				<textarea className="textArea" id="message" name="message" placeholder={formData.placeHolder3} cols="30" rows="10"></textarea>
+				<textarea className="textArea" id="message" name="message" placeholder={formData.placeHolderMsg} cols="30" rows="10"></textarea>
 
 				<button type="submit" className="primaryButton">
 					{formData.button}

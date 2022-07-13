@@ -33,7 +33,7 @@ const Header = () => {
         }
     }
 
-    const headerData = data.header
+    const headerData = data.navigationLinks
 
     return ( 
         <header>
@@ -50,11 +50,11 @@ const Header = () => {
                 </div>
                 <nav className={navbar}>
                     <ul role="list">
-                        <li><Link to="/">{headerData.link1}</Link></li>
-                        <li><Link to="/index">{headerData.link2}</Link></li>
-                        <li><Link to="/contact">{headerData.link3}</Link></li>
-                        <li><Link to="/certificates">{headerData.link4}</Link></li>
-                        <li><span onClick={changeLang}>{headerData.link5}</span></li>
+                        <li><Link to="/">{headerData.linkHome}</Link></li>
+                        <li><Link to="/index">{headerData.linkPortfolio}</Link></li>
+                        <li><Link to="/contact">{headerData.linkContact}</Link></li>
+                        <li><Link to="/certificates">{headerData.linkCertificates}</Link></li>
+                        <li><span onClick={changeLang}>{headerData.linkLenguage}</span></li>
                     </ul>
                 </nav>
             </div>

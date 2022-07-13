@@ -7,8 +7,8 @@ import ContactSection from './RepetitiveSection';
 const Home = () => {
 	const { data } = useContext(LangContext)
 
-	const homeData = data.home
-	const homeImages = data.home.images
+	const homeData = data.homePage
+	const homeImages = homeData.images
 
 	 const goTo = () => {
         const anchor = document.getElementById("aboutMe")
@@ -21,7 +21,7 @@ const Home = () => {
 		<section className="I-intro">
 
 			<picture>
-					<img src={homeImages.hero.mobile}  alt="Decoration fotos"/>
+					<img src={homeImages.hero}  alt="Decoration fotos"/>
 			</picture>
 
 			<div className="intro-content">
@@ -34,7 +34,7 @@ const Home = () => {
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"><g fill="none" fillRule="evenodd" stroke="#5FB4A2"><path d="M0 9l8 4 8-4"/><path opacity="1" d="M0 5l8 4 8-4"/><path opacity=".5" d="M0 1l8 4 8-4"/></g></svg>
 					</div>
 					<div className="PB-textContainer">
-						<p className="PB-text">{homeData.button1}</p>
+						<p className="PB-text">{homeData.buttonAbout}</p>
 					</div>
 				</button>
 			</div>
@@ -45,7 +45,7 @@ const Home = () => {
 
 		<section className="I-myInfo" id="aboutMe">
 			<picture>
-					<img src={homeImages.profile.mobile}  alt="Foto of myself"/>
+					<img src={homeImages.profile}  alt="Foto of myself"/>
 			</picture>
 
 			<div className="myInfo-content">
@@ -57,7 +57,7 @@ const Home = () => {
 	
 				<Link to="./index">
 					<button type="button" className="secondaryButton">
-						{homeData.button2}
+						{homeData.buttonPortfolio}
 					</button>
 				</Link>
 
