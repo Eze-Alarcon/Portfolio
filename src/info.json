@@ -45,7 +45,7 @@
 				"projectNumber": 2,
 				"id": "planetFacts",
 				"name": "Planet Facts",
-				"description": "This was a big project that consisted mainly of implementing React, JavaScript Framework. I built a fully responsive E-Commerce. A Google 'FireBase' database was used to manage stock information.",
+				"description": "This challenge was made with the purpose of putting into practice some acquired skills. It was developed in React implementing vanilla CSS.",
 				"button": "VIEW PROJECT",
 				"link": "planetFacts",
 				"images": "/images/portfolio/my_projects/planetFacts_1.jpg"
@@ -163,7 +163,7 @@
 					},
 					"intro": {
 						"name": "Planet Facts",
-						"description": "This project was built in pure HTML, CSS and JavaScript. In this challenge I wanted to reflect the simplest thing as a calculator adapting it in a responsive way.",
+						"description": "This challenge was made with the purpose of putting into practice some acquired skills. It was developed in React implementing vanilla CSS.",
 						"implementations": "Interaction Design / Front End Development",
 						"tecnologies": "HTML / CSS / JavaScript",
 						"button": "VISIT WEBSITE",
@@ -322,7 +322,7 @@
 				"projectNumber": 2,
 				"id": "planetFacts",
 				"name": "Planet Facts",
-				"description": "Este fue un gran proyecto que consistía principalmente en la implementación de React, Framework de JavaScript. Construí una E-Commerce totalmente responsiva. Se utilizó una base de datos de Google 'FireBase' para gestionar la información de stock.",
+				"description": "Este desafío fue realizado con la finalidad de poner en práctica algunas habilidades adquiridas. Fue desarrollado en React implementando CSS vainilla.",
 				"button": "VER PROYECTO",
 				"link": "planetFacts",
 				"images": "/images/portfolio/my_projects/planetFacts_1.jpg"
@@ -440,7 +440,7 @@
 					},
 					"intro": {
 						"name": "Planet Facts",
-						"description": "Este proyecto fue construido en puro HTML, CSS y JavaScript. En este reto quise reflejar lo más sencillo como una calculadora adaptándola de forma responsiva.",
+						"description": "Este desafío fue realizado con la finalidad de poner en práctica algunas habilidades adquiridas. Fue desarrollado en React implementando CSS vainilla.",
 						"implementations": "Interaction Design / Front End Development",
 						"tecnologies": "HTML / CSS / JavaScript",
 						"button": "VISITAR PÁGINA",
